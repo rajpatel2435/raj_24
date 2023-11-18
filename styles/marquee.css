@@ -1,0 +1,152 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+
+
+
+
+/* 
+--text: 95, 69, 242;
+    --body: 251, 239, 225;
+    --white: 255, 255, 255;
+    --black: 33, 33, 33;
+    --dark_grey: 55, 55, 55;
+    --error: 255, 173, 173;
+    --success: 150, 241, 198;
+    --green: 150, 241, 198;
+    --green_alt: 119, 234, 176;
+    --purple: 95, 69, 242;
+    --dark_purple: 83, 59, 240;
+    --orange: 255, 196, 140;
+    --orange_alt: 255, 173, 108;
+    --blue: 157, 236, 250;
+    --blue_alt: 152, 237, 255;
+    --coral: 255, 173, 173;
+    --coral_alt: 255, 145, 145;
+    --yellow: 255, 227, 117;
+    --cream: 251, 239, 225;
+    --light_cream: 253, 247, 240;
+    --wheat: 246, 220, 194;
+    --gutter: 2rem;
+    --gutter_small: 1rem;
+    --spacing_medium: 6rem;
+    --spacing_small: 4rem;
+    --flux: 115rem;
+    --flux_medium: 96rem;
+    --flux_small: 69rem;
+    --flux_large: 129rem;
+    --timing: 0.5s;
+    --timing_short: 0.2s;
+    --timing_long: 2s;
+    --ease: .25,0,.25,1;
+    --ease_alt: .25,0,.25,1;
+    --ease_in: .75,0,.75,1;
+    --ease_in_alt: .53,.03,1,.56;
+    --ease_out: .17,.67,.43,1.01;
+    --ease_out_alt: .01,.53,.55,.99;
+    --ease_in_out: .61,0,.25,.99;
+    --focus: 4px solid rgba(var(--text));
+    --gradient: linear-gradient(180deg, rgba(var(--wheat), 0) 50%, rgba(var(--wheat), 1) 100%);
+    --laptop: 1440px;
+    --tablet: 768px;
+    --phone: 414px;
+    --phone_small: 375px;
+    
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+.skills_main,
+.skills_main_2,.skills_main_3 {
+  font-size: 80px;
+  background-color: #10e88a;
+
+  /*  rgba(150, 241, 198,1) */
+  /* color: rgba(95,69,242,1); */
+  color: blue;
+  overflow: hidden;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  font-weight: 600;
+  height: 150px;
+  position: relative;
+  transform: rotate(1deg);
+  line-height: 110px;
+}
+
+.skills_main{
+
+
+}
+.skills_main_2 {
+  transform: rotateZ(2.5deg) !important;
+margin-top: 20px;
+  background-color: rgba(255, 173, 173,1);
+  border-top: 8px solid  rgba(95,69,242,1);
+  border-bottom: 8px solid  rgba(95,69,242,1);
+  border-top-left-radius: 80px;
+line-height: 100px;
+}
+
+.skills_main_3{
+    margin-top: 30px;
+    transform:rotate(-0deg);
+    background-color:rgba(255,196,140, 1) ;
+}
+
+.skills_1,
+.skills,
+.skills_2 {
+  position: absolute;
+  white-space: nowrap;
+  padding-top: 1rem;
+  animation: moveLeft 100s linear infinite;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+
+.skills_2{
+    animation: moveRight 100s linear infinite;
+    margin-top: -11px;
+}
+@keyframes moveLeft {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-40%, 0, 0);
+  }
+}
+
+@keyframes moveRight {
+    0% {
+      transform: translate3d(-40%, 0, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+.skills_main_home {
+  color: #fff;
+  text-transform: uppercase;
+
+  height: 27vw;
+
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+}
