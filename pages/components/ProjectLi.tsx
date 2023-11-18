@@ -35,7 +35,7 @@ flex:"0.3"
         css: {
 
 background:"unset",
-        },
+        }, 
       });
 
       // gsap.fromTo(li_1, { backgroundSize: "100% 100%" },{ backgroundSize: `100% 0%`, duration: 0.8})
