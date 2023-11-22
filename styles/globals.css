@@ -4,8 +4,17 @@
 
 
 
+@import url('imgHover.module.css');  
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Vina+Sans&display=swap');
 
+@import url('workMethod.module.css');
+.content-home{
+  font-family: 'Audiowide', sans-serif;
+  -webkit-text-stroke: 4px white;
+color: black !important;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -73,7 +82,7 @@ pink : coral: 255, 173, 173;
 .more_freelancing1212{
   position: fixed;
   top: 50px;
-  right: 10px;
+  right: 20px;
   overflow: hidden;
 z-index: 100;
   /* background: linear-gradient(135deg, #0B486B 0%, #F56217 100%); */

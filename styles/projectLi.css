@@ -1,14 +1,13 @@
-.projectLi:hover {
-    background-color: black;
-}
 
 
-.ul {
+.custom-li {
 
 
-
-color: black;
+background-color: black;
+color: White;
 font-size: 50px;
+border-bottom: 4px solid beige;
+border-bottom-width: 5px;
 
   }   
 
@@ -34,8 +33,16 @@ font-size: 50px;
 
   .li_container{
     display: block;
-    height: 80px;
-    width: 100%;
+margin: 0px 200px;
+    width: 80%;
     background-color: black;
+    overflow: hidden;
 
+    padding: 10px 10px 68px 10px;
+  }
+
+
+
+  .h1_raj{
+    white-space: nowrap ;
   }
