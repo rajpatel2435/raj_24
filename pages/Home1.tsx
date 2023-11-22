@@ -75,6 +75,10 @@ function Home() {
         />
         <link rel="stylesheet" href="../styles/marquee.css" />
         <link rel="stylesheet" href="../styles/projectLi.css" />
+
+        <style>
+  @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&display=swap');
+</style>
       </Head>
 
 
@@ -92,10 +96,10 @@ function Home() {
    
           </div>
 
-<div className=" text-center align-middle items-center flex-1">
+<div className=" text-center align-middle items-center flex-1 content-home">
 
 
-          <div className=" text-8xl mt-36">Designing & Developing <br/>Digital masterpieces <br/>
+          <div className=" text-8xl mt-36 content-home">Designing & Developing <br/>Digital masterpieces <br/>
           from Montreal's Creative hub </div>
           {/* <p className="text-4xl">- where experience meets innovation, and every pixxel tells a story</p> */}
           <div className="container_punchLine">
@@ -192,7 +196,7 @@ function Home() {
         <div className="panel color-light" data-color="black">
           <h2>Green panel</h2>
 
-          <div className="more_freelancing1212">
+        <div className="more_freelancing1212">
             <a
               href="/index.html"
               target="_blank"
@@ -242,7 +246,7 @@ function Home() {
                 </div>
               </div>
             </a>
-          </div>
+          </div> 
         </div>
         <div className="panel color-dark" data-color="indigo">
           <h2>Yellow panel</h2>
