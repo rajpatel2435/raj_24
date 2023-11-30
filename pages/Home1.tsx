@@ -5,6 +5,7 @@ import $ from "jquery";
 import gsap from "gsap";
 
 import ProjetcLi from "./components/ProjectLi";
+import WorkMethod from "./components/WorkMethod";
 
 function Home() {
   useEffect(() => {
@@ -46,22 +47,22 @@ function Home() {
 
     const skills_3 = document.querySelector(".skills_3") as HTMLDivElement;
 
-    skills_1.addEventListener("mouseover", () => {
-      gsap.to(skills_1, {
-        duration: 0.018,
-        css: {
-          animationPlayState: "paused",
-        },
-      });
-    });
+    // skills_1?.addEventListener("mouseover", () => {
+    //   gsap.to(skills_1, {
+    //     duration: 0.018,
+    //     css: {
+    //       animationPlayState: "paused",
+    //     },
+    //   });
+    // });
 
-    skills_1.addEventListener("mouseleave", () => {
-      gsap.to(skills_1, {
-        css: {
-          animationPlayState: "running",
-        },
-      });
-    });
+    // skills_1.addEventListener("mouseleave", () => {
+    //   gsap.to(skills_1, {
+    //     css: {
+    //       animationPlayState: "running",
+    //     },
+    //   });
+    // });
   }, []);
 
   return (
@@ -141,7 +142,7 @@ function Home() {
 
         {/* secnod div second page */}
         <div className="panel color-light" data-color="black">
-          <div className="skills_main">
+          {/* <div className="skills_main">
             <div className="skills">
               Web development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
               &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp; &nbsp;
@@ -187,7 +188,7 @@ function Home() {
               &nbsp; Web development &nbsp; &nbsp; &nbsp; Raj &nbsp; &nbsp;
               &nbsp;
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="panel color-dark" data-color="indigo">
           <h2>Blue panel</h2>
@@ -198,8 +199,8 @@ function Home() {
 
         <div className="more_freelancing1212">
             <a
-              href="/index.html"
-              target="_blank"
+              href="#contact"
+        
               className="ribbon show"
               style={{}}
             >
@@ -252,7 +253,7 @@ function Home() {
           <h2>Yellow panel</h2>
           <div className="skills_main_home">
             <div className="skills_1" style={{ fontSize: "21vw" }}>
-              Web development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
+           Welcome To digital World &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
               &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp; &nbsp;
               &nbsp; Web optimization &nbsp; &nbsp; Reaact &nbsp; &nbsp; Web
               development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
@@ -273,6 +274,9 @@ function Home() {
           <h2>Red panel</h2>
         </div>
       </div>
+
+
+
     </>
   );
 }
