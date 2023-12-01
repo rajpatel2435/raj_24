@@ -102,10 +102,13 @@ function ProjetcLi() {
       const liInside = li.querySelector(".li_inside");
       const liInside1 = li.querySelector(".rajjj");
 
+
+
       li.addEventListener("mouseover", () => {
         const direction = index % 2 === 0 ? 1 : -1; // 1 for left to right, -1 for right to left
 
-
+            const audio=new Audio('/audio.wav');
+            audio.play(); 
         
         gsap.to(liInside1, {
           color:"black"
@@ -208,12 +211,12 @@ function ProjetcLi() {
 
   return (
     <>
-      <div className="bg-black text-white relative ">
+      <div className="bg-black text-white relative block">
 
       <div className="img-wrapper">
       <div className="img-placeholder"> <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" /> </div>
     </div>
-    <h1 className=" text-center text-8xl uppercase p-10">Projetcs</h1>
+    <h1 className=" text-center text-8xl uppercase p-10">selected work</h1>
         <ul className="li_container">
           {/* <li className="custom-li">
             <div className="li_inside">
