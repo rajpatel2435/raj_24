@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Home1 from './Home1'
 import ProjetcLi from './components/ProjectLi'
 import Meet from './components/meet'
+import Hscroll from './components/Hscroll'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
    <>
    <Home1 />
    <Meet />
+   <Hscroll />
 {/* 
    <ProjetcLi /> */}
 
