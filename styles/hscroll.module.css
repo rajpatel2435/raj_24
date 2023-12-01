@@ -1,0 +1,49 @@
+/* Add this CSS to your stylesheets */
+
+.firstContainer1212 {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .panel {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blue {
+    background-color: blue;
+    color: white;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+  }
+  
+  .orange {
+    background-color: orange;
+    color: white;
+  }
+  
+  .purple {
+    background-color: purple;
+    color: white;
+  }
+  
+  .lastContainer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+  }
+  

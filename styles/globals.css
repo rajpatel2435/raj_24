@@ -10,6 +10,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Vina+Sans&display=swap');
 
 @import url('workMethod.module.css');
+@import url('meet.module.css');
+@import url('hscroll.module.css');
 .content-home{
   font-family: 'Audiowide', sans-serif;
   -webkit-text-stroke: 4px white;
@@ -113,7 +115,10 @@ background-color:#D8D9DA;
   100% { background: #e3ed97; }
 }
 
-
+a[ id= "#contact" ]:target {
+  -webkit-transform: translateY( -1000px );
+  transform: translateY( -1000px );
+  }
 
 
 .panel {
@@ -122,6 +127,7 @@ background-color:#D8D9DA;
  
   font-family: sans-serif;
   overflow: hidden;
+  scroll-behavior: smooth;
   /* outline: 10px solid hotpink; */
   /* turn above on to see the edge of panels */
 }
@@ -318,5 +324,33 @@ border-radius: 20px;
   }
   100% {
     transform: translate3d(-40%, 0, 0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+  .ribbon .slider {
+    transform: rotate(0deg);
+    margin-top: 10px;
+  }
+
+  .more_freelancing1212{
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    height: 60px;
+    width: 92%;
+    animation: color 6s infinite;
+
+
   }
 }
