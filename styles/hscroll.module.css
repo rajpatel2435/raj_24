@@ -1,49 +1,57 @@
-/* Add this CSS to your stylesheets */
-
-.firstContainer1212 {
-    background-color: lightgray;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .container {
-    display: flex;
+.scroll-section-outer {
     overflow: hidden;
+    background-color: black;
+    color: white;
   }
   
-  .panel {
-    width: 100vw;
-    height: 100vh;
-    box-sizing: border-box;
-    padding: 20px;
+  .scroll-section-inner {
+    height: 80vh;
+    width: 700vw;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    position: relative;
+  }
+  
+  .scroll-section {
+    height: 80vh;
+    width: 70vw;
+    display: flex;
+
     align-items: center;
   }
   
-  .blue {
-    background-color: blue;
-    color: white;
+  .scroll-section h3 {
+    color: var(--primaryTextColor);
+    letter-spacing: var(--headlineMedium);
+    font-size: var(--headlineMedium);
+    text-transform: uppercase;
   }
-  
-  .red {
-    background-color: red;
-    color: white;
+
+  .first__design{
+    width: 70%;
+    background-color: var(--bg-color);
+    background-image: linear-gradient(135deg,var(--gradient-color-1),var(--gradient-color-2)34%,var(--gradient-color-3)67%,var(--gradient-color-4));
+margin-left: 100px;
+margin-top: 50px;
+    position: relative;
   }
-  
-  .orange {
-    background-color: orange;
-    color: white;
+
+  .first__design_2{
+    width:100%;
+    background-color: var(--bg-color);
+    background-image: linear-gradient(135deg,var(--gradient-color-4),var(--gradient-color-3)34%,var(--gradient-color-2)67%,var(--gradient-color-1));
+margin-right: auto;
+margin-top: 500px;
+
+    position: relative;
   }
-  
-  .purple {
-    background-color: purple;
-    color: white;
+
+  .first__design_3{
+    width:100%;
+    background-color: var(--bg-color);
+    background-image: linear-gradient(135deg,var(--gradient-color-2),var(--gradient-color-1)34%,var(--gradient-color-4)67%,var(--gradient-color-4));
+
+
+
+    position: relative;
   }
-  
-  .lastContainer {
-    background-color: lightgray;
-    padding: 20px;
-    text-align: center;
-  }
-  

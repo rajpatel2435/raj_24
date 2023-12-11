@@ -33,6 +33,22 @@ line-height: 150px;
   
     
   }
+
+  @media screen and (max-width:800px){
+    .img-hover-effect-link {
+      padding: 0 0.1rem;
+      font-size: 50px;
+  line-height: 115px;
+      font-weight: normal;
+      color: transparent;
+      -webkit-text-stroke: 1px white;
+      transition: 0.3s ease-in-out;
+      text-transform: uppercase;
+    
+      
+    }
+    
+  }
   
     
 .img-hover-effect-link :hover {

@@ -62,7 +62,10 @@
 
 
 
-
+.skills_main{
+  background-color: unset !important;
+  color: white !important;
+}
 
 
 
@@ -88,7 +91,7 @@
 
 .skills_main{
 
-
+transform: rotate(0deg);
 }
 .skills_main_2 {
   transform: rotateZ(2.5deg) !important;
@@ -121,6 +124,7 @@ line-height: 100px;
 .skills_2{
     animation: moveRight 100s linear infinite;
     margin-top: -11px;
+   
 }
 @keyframes moveLeft {
   0% {

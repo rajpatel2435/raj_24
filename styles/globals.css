@@ -12,6 +12,8 @@
 @import url('workMethod.module.css');
 @import url('meet.module.css');
 @import url('hscroll.module.css');
+@import url('sliderAnimation.module.css');
+
 .content-home{
   font-family: 'Audiowide', sans-serif;
   -webkit-text-stroke: 4px white;
@@ -22,6 +24,36 @@ color: black !important;
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --bg-color: #f0f0f0;
+    --font-color: #333;
+    --font-size: 2vw;
+    --headings-color: #080808;
+    --h1-hero-font-size: 9vw;
+    --link-color: #3898ec;
+    --gradient-color-1\<deleted\|variable-a6a38035-c0fe-f5b3-f5d3-7e95757c383a\>: #15cf74;
+    --gradient-color-2\<deleted\|variable-f88fb296-5bbc-7470-a513-adf36af1eec7\>: #f1acac;
+    --gradient-color-3\<deleted\|variable-b0660f1e-8262-43f6-7fc1-0f6409b182fc\>: #bf98c6;
+    --new-grad-color-3\<deleted\|variable-9d55e286-d878-6287-d236-c97196e65982\>: #7179ef;
+    --gradient-color-5\<deleted\|variable-e9f617f0-6a3b-8fe5-7276-e54a559ab755\>: #2833d0;
+    --dark-card-color: #1d1d22;
+    --gradient-color-1: #00d372;
+    --gradient-color-2: #56acff;
+    --gradient-color-3: #7179ef;
+    --gradient-color-4: #d87cac;
+    --font-color-dark-mode: #898989;
+    --transparent-color: transparent;
+    --heading-color-dark-mode: #f0f0f0;
+    --bg-color-dark-mode: #080808;
+    --bg-color-green: #152a22;
+    --bg-color-blue: #003049;
+    --cursor-color: #3898ec;
+    --border-width: .2vw;
+    --yellow-link: #daa71b;
+    --pink-link: #d87cac;
+    --red-link: #ff5600;
+    --font-color-on-dark-bg: #ccc;
+    --awwwards-bg: black;
+    --awwwards-fill: white;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -221,7 +253,7 @@ border-radius: 20px;
 }
 
 .ribbon:before {
-  height: calc(100vh - 2rem);
+  height: calc(100vh - 5rem);
 }
 
 .slider .container {
@@ -237,7 +269,7 @@ border-radius: 20px;
 }
 
 .show {
-  height: calc(100vh - 2rem);
+  height: calc(100vh - 5rem);
 }
 
 .ribbon .slider {
@@ -315,6 +347,8 @@ border-radius: 20px;
 
 .punch_line {
   display: inline-block;
+  -webkit-text-stroke: 1px white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   animation: moveLeftPunch 50s linear infinite;
 }
 
