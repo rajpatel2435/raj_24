@@ -100,7 +100,7 @@ function Home() {
 <div className=" text-center align-middle items-center flex-1 content-home">
 
 
-          <div className=" text-8xl mt-36 content-home">Designing & Developing <br/>Digital masterpieces <br/>
+          <div className="md:text-2xl lg:text-8xl lg:mt-28 content-home">Designing & Developing <br/>Digital masterpieces <br/>
           from Montreal's Creative hub </div>
           {/* <p className="text-4xl">- where experience meets innovation, and every pixxel tells a story</p> */}
           <div className="container_punchLine">
@@ -142,23 +142,83 @@ function Home() {
 
         {/* secnod div second page */}
         <div className="panel color-light" data-color="black">
-          {/* <div className="skills_main">
-            <div className="skills">
-              Web development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
-              &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp; &nbsp;
-              &nbsp; Web optimization &nbsp; &nbsp; Reaact &nbsp; &nbsp; Web
-              development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
-              &nbsp; Web development &nbsp; &nbsp; &nbsp; Raj &nbsp; &nbsp;
-              &nbsp; Web development &nbsp; &nbsp; &nbsp; Web development &nbsp;
-              &nbsp; &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp;
-              &nbsp; &nbsp; Web optimization &nbsp; &nbsp; Reaact &nbsp; &nbsp;
-              Web development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
-              &nbsp; Web development &nbsp; &nbsp; &nbsp; Raj &nbsp; &nbsp;
-              &nbsp;
+          <h2 className="text-4xl">Unique Services </h2>
+         <div className="skills_main">
+            <div className="skills p-10">
+             <span className=" border border-gray-400 rounded-full px-7 ">WEb development</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7 ">WEb design</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">SEO</span> &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">Game Designer</span>  &nbsp; &nbsp;
+
+             <span className=" border border-gray-400 rounded-full px-7">Branding</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">UI/UX</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">3D Site developer</span>  &nbsp; &nbsp;
+
+
+
+{/* REpeat the things */}
+             <span className=" border border-gray-400 rounded-full px-7 ">WEb development</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7 ">WEb design</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">SEO</span> &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">Game Designer</span>  &nbsp; &nbsp;
+       
+             <span className=" border border-gray-400 rounded-full px-7">Branding</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">UI/UX</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">3D Site developer</span>  &nbsp; &nbsp;
+       
+            </div>
+          </div>
+          <h2 className="text-4xl ">Expertise</h2>
+          <div className="skills_main">
+            <div className="skills_2 p-10">
+             <span className=" border border-gray-400 rounded-full px-7 ">React JS</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7 ">3 JS</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">Next js</span> &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">express js</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">wordpress</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">node</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">php</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">html</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">css</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">scss</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">typescript</span>  &nbsp; &nbsp;         
+              <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+              <span className=" border border-gray-400 rounded-full px-7">shopify</span>  &nbsp; &nbsp;
+              <span className=" border border-gray-400 rounded-full px-7">ASTRO</span>  &nbsp; &nbsp;
+       
+            </div>
+          </div>
+{/* 
+Optimization - need to stay top in google ranking */}
+<h2 className="text-4xl bg-white text-black w-[700px] ml-auto mr-auto p-2">
+Stay on Top: Internet Optimization Experts!
+</h2>
+
+          <div className="skills_main">
+            <div className="skills p-10">
+             <span className=" border border-gray-400 rounded-full px-7 ">website speed</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7 ">code and script</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">server</span> &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">database</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">Mobile</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">Performance</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">image and media</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">cro</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">css</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">scss</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">typescript</span>  &nbsp; &nbsp;         
+              <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+              <span className=" border border-gray-400 rounded-full px-7">shopify</span>  &nbsp; &nbsp;
+              <span className=" border border-gray-400 rounded-full px-7">ASTRO</span>  &nbsp; &nbsp;
+       
             </div>
           </div>
 
-          <div className="skills_main_2">
+          {/* <div className="skills_main_2">
             <div className="skills_2 ">
               Web development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
               &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp; &nbsp;
@@ -176,6 +236,7 @@ function Home() {
 
           <div className="skills_main_3">
             <div className="skills">
+       
               Web development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
               &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp; &nbsp;
               &nbsp; Web optimization &nbsp; &nbsp; Reaact &nbsp; &nbsp; Web
@@ -194,8 +255,7 @@ function Home() {
           <h2>Blue panel</h2>
           <ProjetcLi />
         </div>
-        <div className="panel color-light" data-color="black">
-          <h2>Green panel</h2>
+  
 
         <div className="more_freelancing1212">
             <a
@@ -248,11 +308,11 @@ function Home() {
               </div>
             </a>
           </div> 
-        </div>
-        <div className="panel color-dark" data-color="indigo">
-          <h2>Yellow panel</h2>
-          <div className="skills_main_home">
-            <div className="skills_1" style={{ fontSize: "21vw" }}>
+      
+
+        <div className="panel color-light min-h-0" data-color="black">
+        <div className="skills_main_home">
+            <div className="skills_1" style={{ fontSize: "21vw",opacity:"0.5" }}>
            Welcome To digital World &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
               &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp; &nbsp;
               &nbsp; Web optimization &nbsp; &nbsp; Reaact &nbsp; &nbsp; Web
@@ -267,12 +327,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="panel color-light" data-color="black">
-          <h2>Orange panel</h2>
-        </div>
-        <div className="panel color-dark" data-color="indigo">
-          <h2>Red panel</h2>
-        </div>
+
       </div>
 
 
