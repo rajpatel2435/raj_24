@@ -13,6 +13,7 @@
 @import url('meet.module.css');
 @import url('hscroll.module.css');
 @import url('sliderAnimation.module.css');
+@import url('projectNew.module.css');
 
 .content-home{
   font-family: 'Audiowide', sans-serif;

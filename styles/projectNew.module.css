@@ -1,0 +1,111 @@
+.first_project_nl{
+    text-align: left;
+    display: flex;
+    background-color: #915c5c;
+    height: 95vh;
+    padding-left: 0;
+    padding-right: 2vh;
+    width: 115vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-width: 115vh;
+    position: relative;
+    border-radius: 10px;
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(1%, 0);
+    transition: unset;
+
+}
+
+
+.homepage-clients{
+    translate: none;
+    rotate: none;
+    scale: none;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+
+    max-height: 945px;
+    height: 945px;
+    padding: 0px;
+    transform: translate(0px, 0px);
+    transition: unset;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+#div_block-634-19 {
+    width: 467vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: .5%;
+    height: 95vh;
+}
+
+
+
+.div_block-643-19 {
+    text-align: left;
+
+    background-color: #000;
+    height: 95vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 4vh;
+    padding-bottom: 0;
+    min-width: 115vh;
+    border-radius: 10px;
+    width: 115vh;
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(1%, 0%);
+    transition: unset;
+}
+
+#div_block-635-19 {
+    text-align: left;
+    display: flex;
+    background-color: #000;
+    height: 95vh;
+    padding-left: 0;
+    padding-right: 2vh;
+    width: 115vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-width: 115vh;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+.third_project, .fourth_project{
+    text-align: left;
+   
+    background-color: #FF4D01;
+    height: 95vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    min-width: 115vh;
+    border-radius: 10px;
+    width: 115vh;
+    
+}
+
+.fourth_project{
+    background-color: black;
+}

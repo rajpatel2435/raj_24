@@ -120,6 +120,10 @@ line-height: 100px;
   overflow: hidden;
 }
 
+.skills_1{
+  margin-top: -25px;
+  opacity: 0.8 !important;
+}
 
 .skills_2{
     animation: moveRight 100s linear infinite;
