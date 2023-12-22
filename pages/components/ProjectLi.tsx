@@ -216,7 +216,11 @@ function ProjetcLi() {
       <div className="img-wrapper">
       <div className="img-placeholder"> <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" /> </div>
     </div>
-    <h1 className=" text-center text-8xl uppercase p-10">selected work</h1>
+    <div>
+
+
+    <h1 className=" text-center text-8xl uppercase mt-10 p-5 bg-white text-black w-[950px] ml-auto mr-auto">selected work</h1>
+    </div>
         <ul className="li_container">
           {/* <li className="custom-li">
             <div className="li_inside">
