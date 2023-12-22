@@ -6,6 +6,7 @@ import gsap from "gsap";
 
 import ProjetcLi from "./components/ProjectLi";
 import WorkMethod from "./components/WorkMethod";
+import ProjectsNew from "./components/ProjectsNew";
 
 function Home() {
   useEffect(() => {
@@ -100,7 +101,7 @@ function Home() {
 <div className=" text-center align-middle items-center flex-1 content-home">
 
 
-          <div className="md:text-2xl lg:text-8xl lg:mt-28 content-home">Designing & Developing <br/>Digital masterpieces <br/>
+          <div className="md:text-6xl lg:text-8xl lg:mt-28 content-home">Designing & Developing <br/>Digital masterpieces <br/>
           from Montreal's Creative hub </div>
           {/* <p className="text-4xl">- where experience meets innovation, and every pixxel tells a story</p> */}
           <div className="container_punchLine">
@@ -252,8 +253,9 @@ Stay on Top: Internet Optimization Experts!
           </div> */}
         </div>
         <div className="panel color-dark" data-color="indigo">
-          <h2>Blue panel</h2>
-          <ProjetcLi />
+
+          {/* <ProjetcLi /> */}
+          <ProjectsNew/>
         </div>
   
 
