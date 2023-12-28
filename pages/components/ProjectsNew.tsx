@@ -11,13 +11,16 @@ function ProjectsNew() {
     gsap.registerPlugin(ScrollTrigger);
 
     useEffect(() => {
+
+
+        const isMobile = window.innerWidth < 768;
         const pin = gsap.fromTo(
             sectionRef.current,
             {
                 translateX: 0,
             },
             {
-                translateX: "-200vw",
+                translateX: isMobile ? "-900vw" : "-200vw", 
                 ease: "none",
                 duration: 1,
                 scrollTrigger: {
@@ -43,7 +46,7 @@ function ProjectsNew() {
 
 
                 <div className='first_project_nl flex-col' id="div_block-635-19">
-                    <div className="text-white text-[25vh] uppercase opacity-10 text-center mt-[-20px] ">
+                    <div className="text-white mt-10 text-6xl md:text-[25vh] uppercase opacity-10 text-center  ">
                         Projects
                     </div>
                     <div className="skills_main">
@@ -67,7 +70,7 @@ function ProjectsNew() {
 
                         </div>
                     </div>
-                    <div className="text-white text-[25vh]  uppercase text-center ">
+                    <div className="text-white mt-10 text-6xl mt md:text-[25vh]  uppercase text-center ">
                         Projects
                     </div>
                 </div>
@@ -75,27 +78,27 @@ function ProjectsNew() {
 
                 <div className='div_block-643-19'>
                     <div className=" flex-row flex gap-6">
-                        <div className="text-6xl text-white">websites & seo </div>
-                        <div className="text-3xl align-bottom text-white"><br />buildig amazing gambling site that gives up to date info in gambling industry</div>
+                        <div className=" text-2xl md:text-6xl text-white pro_new_text">websites & seo </div>
+                        <div className="  text-2xl md:text-3xl align-bottom text-white"><br />buildig amazing gambling site that gives up to date info in gambling industry</div>
                     </div>
 
 
-                    <div className=" flex  w-full h-[50%] mt-4  justify-center">
+                    <div className=" flex  w-full md:h-[50%] mt-4  justify-center">
                         <Image src="/Images/PS-christmass.svg" alt="PS" width={800} height={200} />
 
 
                     </div>
 
-                    <div className=" flex  justify-center mt-[-40px]">
-                        <Image src="/Images/PS_logo.svg" alt="PS" width={200} height={200} className=" h-[200px] w-[200px] rounded-full bg-white" />
+                    <div className=" flex  justify-center h-16 md:mt-[-40px]">
+                        <Image src="/Images/PS_logo.svg" alt="PS" width={200} height={200} className=" h-20 w-auto md:h-[200px] md:w-[200px] mt-10 rounded-full bg-white" />
                     </div>
                 </div>
 
                 <div className="third_project">
 
                     <div className=" flex-row flex gap-6 w-full h-[20%]">
-                        <div className="text-6xl text-white w-[50%] text-center justify-center items-center flex">web-application</div>
-                        <div className="text-3xl align-bottom text-white w-[50%] flex justify-center"><br />
+                        <div className="text-2xl md:text-6xl text-white w-[50%] text-center justify-center items-center flex pro_new_text">web-application</div>
+                        <div className="text-xl md:text-3xl align-bottom text-white md:w-[50%] flex justify-center"><br />
                             {/* Explore a dynamic web app with movie listings, a 'like' button, and favorite functionality for personalized entertainment */}
                             MovieFy: Your Personalized Movie Hub with Intuitive Design and Seamless Development
 
@@ -113,8 +116,8 @@ function ProjectsNew() {
                 <div className="fourth_project">
 
                     <div className=" flex-row flex gap-6 w-full h-[20%]">
-                        <div className="text-6xl text-white w-[50%] text-center justify-center items-center flex">web-application</div>
-                        <div className="text-3xl align-bottom text-white w-[50%] flex justify-center"><br />
+                    <div className="text-2xl md:text-6xl text-white w-[50%] text-center justify-center items-center flex pro_new_text">web-application</div>
+                    <div className="text-2xl md:text-3xl align-bottom text-white md:w-[50%] flex justify-center"><br />
                             {/* Explore a dynamic web app with movie listings, a 'like' button, and favorite functionality for personalized entertainment */}
                             vibrary:Library Managment for School, colleges
 
@@ -129,12 +132,12 @@ function ProjectsNew() {
 
                 <div className="third_project grid place-content-center ">
 
-                    <div className="  flex justify-center text-8xl text-white items-center">
+                    <div className=" text-2xl  flex justify-center md:text-6xl text-white items-center">
                     Unlocking potential, your project could be the next chapter in our creative journey
                       
                     </div>
-                    <div className="skills_main">
-                        <div className="skills p-10">
+                    <div className="skills_main text-xl">
+                        <div className="skills text-4xl md:text-6xl p-10">
                             <span className=" border border-gray-400 rounded-full px-7 bg-black">Contact US</span>  &nbsp; &nbsp;
                             <span className=" border border-black rounded-full px-7 bg-white text-black ">Meet us</span>  &nbsp; &nbsp;
                             <span className=" border border-gray-400 rounded-full px-7 bg-black">Contact US</span> &nbsp; &nbsp;

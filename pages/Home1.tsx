@@ -7,6 +7,8 @@ import gsap from "gsap";
 import ProjetcLi from "./components/ProjectLi";
 import WorkMethod from "./components/WorkMethod";
 import ProjectsNew from "./components/ProjectsNew";
+import Link from "next/link";
+import HeaderMenu from "./headerMenu";
 
 function Home() {
   useEffect(() => {
@@ -87,21 +89,27 @@ function Home() {
 
       <div className="wrap">
 
-    
-
         <div
           className="panel color-dark panel-black flex  flex-col min-h-screen justify-center"
           data-color="black"
         >
 
 <div className="subline-home text-4xl flex-1">   
-   
+<Link href="/headerMenu">
+
+<div className="w-10 p-2 absolute right-28 top-14">
+
+  <div className="h-1 w-8 mt-1 ml-1   text-center bg-white rounded-md"></div>
+  <div className="h-1 mt-2 mb-2 w-10 opacity-50 bg-white rounded-md"></div>
+  <div className="h-1 w-8 mt-1 ml-1   text-center bg-white  rounded-md"></div>
+</div>
+</Link>
           </div>
 
 <div className=" text-center align-middle items-center flex-1 content-home">
 
 
-          <div className="md:text-6xl lg:text-8xl lg:mt-28 content-home">Designing & Developing <br/>Digital masterpieces <br/>
+          <div className="md:text-6xl lg:text-7xl lg:mt-28 content-home">Designing & Developing <br/>Digital masterpieces <br/>
           from Montreal's Creative hub </div>
           {/* <p className="text-4xl">- where experience meets innovation, and every pixxel tells a story</p> */}
           <div className="container_punchLine">
@@ -261,7 +269,7 @@ Stay on Top: Internet Optimization Experts!
 
         <div className="more_freelancing1212">
             <a
-              href="#contact"
+              href="#meeet"
         
               className="ribbon show"
               style={{}}

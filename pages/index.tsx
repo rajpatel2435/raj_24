@@ -6,15 +6,17 @@ import Meet from './components/meet'
 import Hscroll from './components/Hscroll'
 import Services from './components/Services'
 import TextBig from './components/TextBig'
+import MethodSlider from './components/MethodSlider'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
    <>
    <Home1 />
-   <TextBig />
+   {/* <TextBig /> */}
+   <MethodSlider/>
    <Meet />
-   <Hscroll />
+   {/* <Hscroll /> */}
    <Services />
 {/* 
    <ProjetcLi /> */}

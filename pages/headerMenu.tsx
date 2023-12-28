@@ -8,7 +8,7 @@ function HeaderMenu() {
     let more_freelancing = document.querySelector(".more_freelancing12");
 
     let text_p = document.querySelector(".text_p") as HTMLParagraphElement;
-    console.log("Raaaaaaji" + text_p.textContent);
+
 
     let close_button = document.querySelector(".close");
 
@@ -104,6 +104,7 @@ function HeaderMenu() {
             height: "100px",
             width: "100px",
             borderRadius: "50%",
+            opacity:1,
           },
         });
 
@@ -134,13 +135,21 @@ function HeaderMenu() {
           },
         });
 
+        // gsap.set(more_freelancing, {
+        //   duration: 0.018,
+        //   css: {
+        //     height: "0px",
+        //     width: "0px",
+        //     fontSize:"0px",
+        //   },
+        // });
+
         gsap.set(more_freelancing, {
-          duration: 0.018,
-          css: {
-            height: "0px",
-            width: "0px",
-          },
+          opacity: 0,
+          duration: 0.3, // Adjust the duration as needed
+          ease: 'power2.inOut',
         });
+
       });
     });
 
@@ -153,6 +162,9 @@ function HeaderMenu() {
           borderRadius: "0",
         },
       });
+
+
+  
     });
   }, []);
 
@@ -162,23 +174,21 @@ function HeaderMenu() {
       <div>
         <div className=" fixed top-0 left-0 w-6 h-6 bg-white small_point"></div>
         <div className="flex justify-center items-center  fixed top-0 left-0 bg-white h-0 w-0 text-center align-middle rounded-full more_freelancing12 ">
-          <p className="text-black text_p font-bold text-2xl ">Go</p>
+          <p className="text-black text_p font-bold text-2xl "></p>
         </div>
       </div>
 
-      <section className="flex w-screen items-center h-screen bg-[rgb(34,34,34)] text-white font-bold cursor-none">
+      <section className="flex w-screen items-center h-screen bg-[rgb(34,34,34)] text-white font-bold cursor-none header-container-menu overflow-hidden">
         <div className="h-[33.796vw] flex-col justify-between flex items-center  md:w-1/2 ">
           <div className="grid place-content-center md:text-[20px]"></div>
 
           <div className="ml-auto mr-auto md:text-[20px]">
-            <ul className="text-left  ">
+            <ul className="text-center md:text-left  ">
               <li>new Projects</li>
               <li>rajpatel2435@gmail.com</li>
             </ul>
             <ul className="mt-40 mb-5 lg:mb-[80px]">
-              <li>Linkedin</li>
-              <li>Instagram</li>
-              <li>Facebook</li>
+            
               <li>portfolio 2022</li>
             </ul>
           </div>

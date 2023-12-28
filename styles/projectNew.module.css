@@ -109,3 +109,51 @@
 .fourth_project{
     background-color: black;
 }
+
+
+
+
+@media screen and (max-width:500px) {
+    
+    #div_block-635-19,.div_block-643-19, .third_project,.fourth_project {
+        width: 95vw;
+        min-width: 95vw;
+        height: 65vh;
+    }
+
+
+    .pro_new_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .header-container-menu{
+        flex-direction: column-reverse;
+    }
+
+
+    .close{
+        top: 26px !important;
+        padding: unset !important;
+        right: 26px !important;
+    }
+}
+
+
+@media screen and (max-width:1500px) {
+    .close{
+        top: 45px !important;
+        padding: unset !important;
+        right: 45px !important;
+    }
+
+
+    .content-home{
+        font-size: 3.5rem !important;
+        -webkit-text-stroke: 2px white !important;
+        
+    }
+}

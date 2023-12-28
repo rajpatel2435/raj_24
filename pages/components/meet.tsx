@@ -22,7 +22,7 @@ function meet() {
 
 
 
-<div className='grid grid-cols-1 md:grid-cols-2 gap-2 '>
+<div className='grid grid-cols-1 md:grid-cols-2 gap-2 ' id='meeet'>
             <div className='  bg-black h-screen  text-white flex justify-center'>
         <p className='block mt-auto mb-auto text-2xl  tracking-wider  p-5 ' style={{  }}> 
                        Congratulations on making it this far! Now, let's elevate the excitement—how about we rendezvous in the digital realm of Google Meet, Teams, or Zoom? We're eager to dive into the unique tapestry of your agency's needs and dazzle you with our tailored, success-proven solutions. Ready to embark on a transformative journey with just one click? Your agency's next chapter is waiting to be penned in brilliance!
