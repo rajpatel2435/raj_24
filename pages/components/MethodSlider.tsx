@@ -116,7 +116,7 @@ function MethodSlider() {
 <ul >
 <li className='text-2xl font-bold  '>1.Wireframing</li>
 <li className='text-xl'>- Craft visual blueprints for aesthetic precision</li>
-<li className='text-xl'>- Establish the project's skeletal elegance
+<li className='text-xl'>- Establish the project&apos;s skeletal elegance
 </li>
 
 </ul>

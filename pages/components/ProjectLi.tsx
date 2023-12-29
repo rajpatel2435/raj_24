@@ -265,7 +265,7 @@ function ProjetcLi() {
           </li> */}
 
 <li className="custom-li">
-            <a href="/">
+            <Link href="/">
           <div className="li_inside">
           <div className="img-hover-effect-link li_inside  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
  
@@ -274,11 +274,11 @@ function ProjetcLi() {
         
             </div>
             </div>
-            </a>
+            </Link>
           </li>
 
 <li className="custom-li">
-            <a href="/">
+            <Link href="/">
           <div className="li_inside">
           <div className="img-hover-effect-link li_inside  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
  
@@ -287,11 +287,11 @@ function ProjetcLi() {
         
             </div>
             </div>
-            </a>
+            </Link>
           </li>
 
           <li className="custom-li">
-            <a href="/">
+            <Link href="/">
           <div className="li_inside">
           <div className="img-hover-effect-link li_inside  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
  
@@ -300,11 +300,11 @@ function ProjetcLi() {
         
             </div>
             </div>
-            </a>
+            </Link>
           </li>
 
           <li className="custom-li">
-          <a href="/">
+          <Link href="/">
           <div className="li_inside">
           <div className="img-hover-effect-link  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
  
@@ -313,11 +313,11 @@ function ProjetcLi() {
         
             </div>
             </div>
-            </a>
+            </Link>
           </li>
 
           <li className="custom-li">
-            <a href="/">
+            <Link href="/">
           <div className="li_inside">
           <div className="img-hover-effect-link li_inside  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
  
@@ -326,7 +326,7 @@ function ProjetcLi() {
         
             </div>
             </div>
-            </a>
+            </Link>
           </li>
           {/* <li className="custom-li">
             <div className="li_inside">
@@ -334,7 +334,7 @@ function ProjetcLi() {
             </div>
           </li> */}
           <li className="custom-li">
-            <a href="">
+            <Link href="">
           <div className="li_inside">
           <div className="img-hover-effect-link  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
  
@@ -343,7 +343,7 @@ function ProjetcLi() {
         
             </div>
             </div>
-            </a>
+            </Link>
           </li>
 
 

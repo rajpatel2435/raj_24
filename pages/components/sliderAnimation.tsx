@@ -33,7 +33,7 @@ function sliderAnimation() {
        </div>
         </div>
         <div className='flex justify-center align-middle  '>
-          <h3>MITS: Montreal IT's Hub</h3>
+          <h3>MITS: Montreal IT&apos;s Hub</h3>
         </div>
         <div>
     

@@ -148,7 +148,7 @@ function ScrollSection() {
   <ul className="p-6" >
     <li className='text-2xl font-bold lg:text-4xl  '>2.Iterative Development</li>
     <li className='text-2xl mt-6  lg:text-2xl p-2'>- Dance with iteration, refine in rhythm</li>
-    <li className='text-2xl  lg:text-2xl  '>- Mold excellence with the sculptor's chisel of feedback
+    <li className='text-2xl  lg:text-2xl  '>- Mold excellence with the sculptor&apos;s chisel of feedback
     </li>
 
   </ul>

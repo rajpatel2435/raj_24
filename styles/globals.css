@@ -14,6 +14,7 @@
 @import url('hscroll.module.css');
 @import url('sliderAnimation.module.css');
 @import url('projectNew.module.css');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&display=swap');
 
 .content-home{
   font-family: 'Audiowide', sans-serif;

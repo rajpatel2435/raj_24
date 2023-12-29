@@ -81,7 +81,7 @@ function Home() {
         <link rel="stylesheet" href="../styles/projectLi.css" />
 
         <style>
-  @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&display=swap');
+
 </style>
       </Head>
 
@@ -110,7 +110,7 @@ function Home() {
 
 
           <div className="md:text-6xl lg:text-7xl lg:mt-28 content-home">Designing & Developing <br/>Digital masterpieces <br/>
-          from Montreal's Creative hub </div>
+          from Montreal&apos;s Creative hub </div>
           {/* <p className="text-4xl">- where experience meets innovation, and every pixxel tells a story</p> */}
           <div className="container_punchLine">
         <div className="punch_line">

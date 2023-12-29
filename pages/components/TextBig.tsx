@@ -51,7 +51,7 @@ function TextBig() {
     return (
         <div className='grid place-content-center h-[100vh] bg-[#0a0a0c] text-white text-8xl overflow-hidden whitespace-nowrap box-2 color-black'>
             <div className='box'>
-                We make better websites,isn't it?
+                We make better websites,isn&apos;t it?
             </div>
         </div>
     )
