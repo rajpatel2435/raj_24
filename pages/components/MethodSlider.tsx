@@ -182,7 +182,7 @@ function MethodSlider() {
                         <ul >
 <li className='text-2xl font-bold  '>2.  Iterative Development</li>
 <li className='text-xl'>- Dance with iteration, refine in rhythm</li>
-<li className='text-xl'>-Mold excellence with the sculptor's chisel of feedback
+<li className='text-xl'>-Mold excellence with the sculptor&apos;s chisel of feedback
 </li>
 
 </ul>

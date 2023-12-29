@@ -9,7 +9,7 @@ function meet() {
                         Raj
                     </div>
                     <div className='text-center rounded-full'>
-                        Let's meet and review
+                        Let&apos;s meet and review
                     </div>
                     <div className='text-xl mt-4'>
                         Patel

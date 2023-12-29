@@ -57,7 +57,7 @@ function WorkMethod() {
 <ul >
 <li className='text-2xl font-bold  '>1.Wireframing</li>
 <li className='text-xl'>- Craft visual blueprints for aesthetic precision</li>
-<li className='text-xl'>- Establish the project's skeletal elegance
+<li className='text-xl'>- Establish the project&apos;s skeletal elegance
 </li>
 
 </ul>
@@ -106,7 +106,7 @@ function WorkMethod() {
 <ul >
 <li className='text-2xl font-bold  '>2.  Iterative Development</li>
 <li className='text-xl'>- Dance with iteration, refine in rhythm</li>
-<li className='text-xl'>-Mold excellence with the sculptor's chisel of feedback
+<li className='text-xl'>-Mold excellence with the sculptor&apos;s chisel of feedback
 </li>
 
 </ul>
@@ -156,7 +156,7 @@ function WorkMethod() {
 
 <div className=' ml-auto mr-auto md:w-96 p-2 border-4'>
 <ul >
-<li className='text-2xl font-bold  '>2.   Client Training::</li>
+<li className='text-2xl font-bold  '>2.   Client Training</li>
 <li className='text-xl'>- Conduct training serenades for mastery</li>
 <li className='text-xl'>-Empower clients with the keys to long-term success
 </li>

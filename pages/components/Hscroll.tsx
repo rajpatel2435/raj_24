@@ -90,7 +90,7 @@ function ScrollSection() {
               <ul className="p-6" >
                 <li className='text-2xl font-bold lg:text-4xl '>1.Wireframing</li>
                 <li className='text-2xl mt-6  lg:text-2xl p-2'>- Craft visual blueprints for aesthetic precision</li>
-                <li className='text-2xl  lg:text-2xl  '>- Establish the project's skeletal elegance
+                <li className='text-2xl  lg:text-2xl  '>- Establish the project&apos;s skeletal elegance
                 </li>
 
               </ul>

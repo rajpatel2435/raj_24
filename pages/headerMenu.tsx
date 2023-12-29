@@ -205,7 +205,7 @@ function HeaderMenu() {
         </div>
 
         <div className=" absolute top-20 right-20 close p-10">
-          <img src="https://assets-global.website-files.com/640256f45361e5c4782b15ad/642b581080142521a19355b8_Close.svg" />
+          <img src="https://assets-global.website-files.com/640256f45361e5c4782b15ad/642b581080142521a19355b8_Close.svg" alt="cancle"/>
         </div>
       </section>
 
