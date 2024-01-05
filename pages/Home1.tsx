@@ -91,7 +91,31 @@ function Home() {
 
       </Head>
 
+      <div className="container_punchLine_2">
+        <div className="punch_line">
+            &nbsp; &nbsp; Work In Progress &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Under development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; In development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Not completed &nbsp; &nbsp; &nbsp;
 
+            &nbsp; &nbsp; Work In Progress &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Under development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; In development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Not completed &nbsp; &nbsp; &nbsp;
+
+            &nbsp; &nbsp; Work In Progress &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Under development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; In development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Not completed &nbsp; &nbsp; &nbsp;
+
+            &nbsp; &nbsp; Work In Progress &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Under development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; In development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Not completed &nbsp; &nbsp; &nbsp;
+
+
+        </div>
+    </div>
 
       <div className="wrap">
 

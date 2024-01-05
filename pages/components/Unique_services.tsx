@@ -9,7 +9,7 @@ function Unique_services() {
 
 
             <div className='services-h1'>
-                <div className="services-h1-txt">Your <span className="left-bracket">(</span><span className="uni-span"> Exc<sup className="superscript r-sign"> ®</sup></span><span className="right-bracket">)</span>eptional</div>
+                <div className="services-h1-txt">Your <span className="left-bracket">(</span><span className="uni-span"> X<sup className="superscript r-sign"> ®</sup></span><span className="right-bracket">)</span>eptional</div>
                 <div className="services-h1-txt">guide</div>
 
 
