@@ -171,7 +171,7 @@ function HeaderMenu() {
   return (
     <>
 
-      <div>
+      <div className=" hidden md:block">
         <div className=" fixed top-0 left-0 w-6 h-6 bg-white small_point"></div>
         <div className="flex justify-center items-center  fixed top-0 left-0 bg-white h-0 w-0 text-center align-middle rounded-full more_freelancing12 ">
           <p className="text-black text_p font-bold text-2xl "></p>
@@ -179,7 +179,7 @@ function HeaderMenu() {
       </div>
 
       <section className="flex w-screen items-center h-screen bg-[rgb(34,34,34)] text-white font-bold cursor-none header-container-menu overflow-hidden">
-        <div className="h-[33.796vw] flex-col justify-between flex items-center  md:w-1/2 ">
+        <div className="md:h-[33.796vw] flex-col justify-between flex items-center  md:w-1/2 ">
           <div className="grid place-content-center md:text-[20px]"></div>
 
           <div className="ml-auto mr-auto md:text-[20px]">
