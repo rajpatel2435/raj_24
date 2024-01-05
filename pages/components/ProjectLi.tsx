@@ -159,7 +159,7 @@ function ProjetcLi() {
     let imgWrap = document.querySelector('.img-wrapper');
     let imgItem = document.querySelector('.img-placeholder img');
 
-    function moveImg(e) {
+    function moveImg(e: React.MouseEvent<HTMLDivElement>) {
       let mouseX = e.clientX;
       let mouseY = e.clientY;
       let tl = gsap.timeline();
@@ -167,11 +167,11 @@ function ProjetcLi() {
         duration: 1,
         x: mouseX,
         y: mouseY,
-        ease: Expo.ease,
+      
       });
     }
 
-    function linkHover(e) {
+    function linkHover(e:any) {
       if (e.type === "mouseenter") {
         let imgSrc = e.target.dataset.src;
         let tl = gsap.timeline();
@@ -195,7 +195,7 @@ function ProjetcLi() {
     }
 
     function initAnimation() {
-      imgHoverLink.forEach((link) => {
+      imgHoverLink.forEach((link:any) => {
         link.addEventListener('mouseenter', linkHover);
         link.addEventListener('mouseleave', linkHover);
         link.addEventListener('mousemove', moveImg);
@@ -267,7 +267,9 @@ function ProjetcLi() {
 <li className="custom-li">
             <Link href="/">
           <div className="li_inside">
-          <div className="img-hover-effect-link li_inside  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
+          <div className="img-hover-effect-link li_inside  h1_raj" 
+          data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" 
+         >
  
               <h1 className="text-green-700 w-96 rajjj">Slots Paradise</h1>
         
@@ -280,7 +282,7 @@ function ProjetcLi() {
 <li className="custom-li">
             <Link href="/">
           <div className="li_inside">
-          <div className="img-hover-effect-link li_inside  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
+          <div className="img-hover-effect-link li_inside  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" >
  
               <h1 className="text-green-700 w-96 rajjj">MovieFy</h1>
         
@@ -293,7 +295,7 @@ function ProjetcLi() {
           <li className="custom-li">
             <Link href="/">
           <div className="li_inside">
-          <div className="img-hover-effect-link li_inside  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
+          <div className="img-hover-effect-link li_inside  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" >
  
               <h1 className="text-green-700 w-96 rajjj">Vibrary</h1>
         
@@ -306,7 +308,7 @@ function ProjetcLi() {
           <li className="custom-li">
           <Link href="/">
           <div className="li_inside">
-          <div className="img-hover-effect-link  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
+          <div className="img-hover-effect-link  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" >
  
               <h1 className="text-green-700 w-96 rajjj">PointsPread</h1>
         
@@ -319,7 +321,7 @@ function ProjetcLi() {
           <li className="custom-li">
             <Link href="/">
           <div className="li_inside">
-          <div className="img-hover-effect-link li_inside  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
+          <div className="img-hover-effect-link li_inside  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" >
  
               <h1 className="text-green-700 w-96 rajjj">Insider Betting Digest</h1>
         
@@ -336,7 +338,7 @@ function ProjetcLi() {
           <li className="custom-li">
             <Link href="">
           <div className="li_inside">
-          <div className="img-hover-effect-link  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" href="#">
+          <div className="img-hover-effect-link  h1_raj" data-src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" >
  
               <h1 className="text-green-700 w-96 rajjj">Betus</h1>
         

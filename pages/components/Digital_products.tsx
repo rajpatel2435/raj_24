@@ -19,7 +19,7 @@ function Digital_products() {
             <div>
                 <h3>
 
-                    "Optimize digital product channels for rapid feedback, adapting marketing and customer service with enhanced control. Infuse creativity to refine brand messaging and elevate customer experience. A strategic blend of formality and innovation fosters business success, attracting clients and driving revenue seamlessly."
+                    Optimize digital product channels for rapid feedback, adapting marketing and customer service with enhanced control. Infuse creativity to refine brand messaging and elevate customer experience. A strategic blend of formality and innovation fosters business success, attracting clients and driving revenue seamlessly.
                 </h3>
             </div>
 
@@ -58,14 +58,14 @@ function Digital_products() {
 
                 <h2>Ecommerce Development</h2>+
                 <p>
-                Boost Online Sales with Uni Agency's E-commerce Development! As an outsourcing product development company, we excel in showcasing your new products to captivate users and convert them into customers. Our proven approach guarantees flawless performance for your online platform, ensuring a seamless and lucrative shopping experience
+                Boost Online Sales with Uni Agency`&apos;`s E-commerce Development! As an outsourcing product development company, we excel in showcasing your new products to captivate users and convert them into customers. Our proven approach guarantees flawless performance for your online platform, ensuring a seamless and lucrative shopping experience
                 </p>
             </div>
 
             <div>
                 <h2>Web3 Development</h2>
                 <p>
-                Experience Excellence with Uni Agency's Web3 Development! As an outsourced product development company, we deliver pitch-perfect apps, ensuring substantial benefits for your investors or shareholders. Our implementation of superb Web3 solutions streamlines your business operations, providing a seamless and innovative platform experience
+                Experience Excellence with Uni Agency`&apos;`s Web3 Development! As an outsourced product development company, we deliver pitch-perfect apps, ensuring substantial benefits for your investors or shareholders. Our implementation of superb Web3 solutions streamlines your business operations, providing a seamless and innovative platform experience
                 </p>
             </div>
         </>

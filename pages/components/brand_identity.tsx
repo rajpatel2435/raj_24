@@ -35,7 +35,7 @@ Amplify Your Business Brilliance with Dynamic Digital Branding Services 🚀✨
 
     <h2>visual && branding</h2>
     <p>
-    Elevating Brands through Visual Mastery: Beyond logos and types, branding is the heartbeat of a company. It provides consumers with a relatable ground, forging connections beyond the product or service. A well-developed brand is not just a logo; it's a promise cherished by customers.
+    Elevating Brands through Visual Mastery: Beyond logos and types, branding is the heartbeat of a company. It provides consumers with a relatable ground, forging connections beyond the product or service. A well-developed brand is not just a logo; it is s a promise cherished by customers.
     </p>
 </div>
 </>

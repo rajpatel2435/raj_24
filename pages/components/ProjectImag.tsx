@@ -14,7 +14,7 @@ export default function ProjectImag(){
         let imgWrap = document.querySelector('.img-wrapper');
         let imgItem = document.querySelector('.img-placeholder img');
     
-        function moveImg(e) {
+        function moveImg(e: React.MouseEvent<HTMLDivElement>) {
           let mouseX = e.clientX;
           let mouseY = e.clientY;
           let tl = gsap.timeline();
@@ -22,11 +22,11 @@ export default function ProjectImag(){
             duration: 1,
             x: mouseX,
             y: mouseY,
-            ease: Expo.ease,
+      
           });
         }
     
-        function linkHover(e) {
+        function linkHover(e:any) {
           if (e.type === "mouseenter") {
             let imgSrc = e.target.dataset.src;
             let tl = gsap.timeline();
@@ -49,7 +49,7 @@ export default function ProjectImag(){
         }
     
         function initAnimation() {
-          imgHoverLink.forEach((link) => {
+          imgHoverLink.forEach((link:any) => {
             link.addEventListener('mouseenter', linkHover);
             link.addEventListener('mouseleave', linkHover);
             link.addEventListener('mousemove', moveImg);
