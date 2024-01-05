@@ -177,8 +177,8 @@ function HeaderMenu() {
           <p className="text-black text_p font-bold text-2xl "></p>
         </div>
       </div>
-
-      <section className="flex w-screen items-center h-screen bg-[rgb(34,34,34)] text-white font-bold cursor-none header-container-menu overflow-hidden">
+<div className="bg-[rgb(34,34,34)] h-screen">
+      <section className="flex w-screen items-center h-[80vh] md:h-screen bg-[rgb(34,34,34)] text-white font-bold cursor-none header-container-menu overflow-hidden">
         <div className="md:h-[33.796vw] flex-col justify-between flex items-center  md:w-1/2 ">
           <div className="grid place-content-center md:text-[20px]"></div>
 
@@ -187,14 +187,14 @@ function HeaderMenu() {
               <li>new Projects</li>
               <li>rajpatel2435@gmail.com</li>
             </ul>
-            <ul className="mt-40 mb-5 lg:mb-[80px]">
+            <ul className="   md:mt-40 md:mb-5 lg:mb-[80px]">
             
               <li>portfolio 2022</li>
             </ul>
           </div>
         </div>
 
-        <div className="flex justify-center items-center p-10   text-[7vh] md:w-1/2">
+        <div className="  flex justify-center items-center p-10   text-[7vh] md:w-1/2">
           <ul className="navbar_right">
             <li> About</li>
             <li>Projects</li>
@@ -208,6 +208,7 @@ function HeaderMenu() {
           <img src="https://assets-global.website-files.com/640256f45361e5c4782b15ad/642b581080142521a19355b8_Close.svg" alt="cancle"/>
         </div>
       </section>
+      </div>
 
     </>
   );
