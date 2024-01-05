@@ -20,7 +20,7 @@ function ProjectsNew() {
                 translateX: 0,
             },
             {
-                translateX: isMobile ? "-900vw" : "-200vw", 
+                translateX: isMobile ? "-400vw" : "-200vw", 
                 ease: "none",
                 duration: 1,
                 scrollTrigger: {

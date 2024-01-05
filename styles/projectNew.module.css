@@ -114,6 +114,10 @@
 
 
 @media screen and (max-width:500px) {
+
+    #div_block-634-19{
+        height: 50vh;
+    }
     
     #div_block-635-19,.div_block-643-19, .third_project,.fourth_project {
         width: 95vw;
@@ -121,7 +125,13 @@
         height: 65vh;
     }
 
+    .homepage-clients{
+        height: 450px !important;
+    }
 
+    .pin-spacer{
+        height: 959px !important;
+    }
     .pro_new_text{
         display: flex;
         justify-content: center;
