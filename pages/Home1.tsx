@@ -91,6 +91,24 @@ function Home() {
 
       </Head>
 
+
+
+
+      {/* <div className="flex justify-between services_title overflow-hidden text-end ">
+        <ul className=" mb-8 text-2xl md:text-end md:mr-12 md:text-4xl md:mt-10">
+                <li>Crafting digital dreams,</li>
+                <li>where pixels meet profit</li>
+            </ul>
+        </div> */}
+
+
+
+
+
+
+
+
+
       <div className="container_punchLine_2">
         <div className="punch_line">
             &nbsp; &nbsp; Work In Progress &nbsp; &nbsp; &nbsp;
@@ -124,10 +142,10 @@ function Home() {
           data-color="black"
         >
 
-<div className="subline-home text-4xl flex-1">   
+<div className="subline-home text-4xl md:flex-1">   
 <Link href="/headerMenu">
 
-<div className="w-10 p-2 absolute right-28 top-14">
+<div className="w-10 p-2 absolute right-7 md:right-28 top-14">
 
   <div className="h-1 w-8 mt-1 ml-1   text-center bg-white rounded-md"></div>
   <div className="h-1 mt-2 mb-2 w-10 opacity-50 bg-white rounded-md"></div>
@@ -136,7 +154,7 @@ function Home() {
 </Link>
           </div>
 
-<div className=" text-center align-middle items-center flex-1 content-home">
+<div className=" text-center align-middle items-center  content-home">
 {/* <div className="flex flex-col justify-center items-center content-home"> */}
 
           <div className="md:text-6xl lg:text-7xl lg:mt-28 content-home">Designing & Developing <br/>Digital masterpieces <br/>
@@ -158,8 +176,8 @@ function Home() {
     </div>
         </div>
        
-        <div className=" mr-10 flex-1">
-        <ul className=" text-end mr-12 text-4xl mt-10">
+        <div className="relative top-[20vh] text-center md:mr-10 md:flex-1 md:top-0">
+        <ul className=" mb-8 text-2xl md:text-end md:mr-12 md:text-4xl md:mt-10">
                 <li>Crafting digital dreams,</li>
                 <li>where pixels meet profit</li>
             </ul>

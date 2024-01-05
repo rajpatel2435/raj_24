@@ -381,12 +381,27 @@ border-radius: 20px;
 
   .more_freelancing1212{
     position: fixed;
-    left: 20px;
+    left: 10px;
     right: 20px;
     height: 60px;
-    width: 92%;
+    width: 77%;
     animation: color 6s infinite;
 
 
+  }
+
+
+  .content-home{
+    font-size: 29px !important;
+color: white !important;
+-webkit-text-stroke: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+  .content-home{
+    font-size: 46px !important;
+color: white !important;
+-webkit-text-stroke: 2px !important;
   }
 }
