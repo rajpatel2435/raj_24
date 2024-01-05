@@ -65,7 +65,7 @@ function MethodSlider() {
 
                         <SwiperSlide>
 
-                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-[#FF4D01] rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
+                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-[#0019ff] rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
 
                                 <div className=' p-2 text-2xl  '>
                                     <ul >
@@ -79,7 +79,7 @@ function MethodSlider() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-black rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
+                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-[#ff3928] rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
                             <div className=' p-2 text-4xl'>
     <ul >
         <li className='text-2xl font-bold  '>2. Research and Analysis</li>
@@ -92,7 +92,7 @@ function MethodSlider() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-[#FF4D01] rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
+                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-black rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
                         <div className=' p-2 text-4xl'>
     <ul >
         <li className='text-2xl font-bold  '>3. Planning and Strategy</li>
@@ -105,9 +105,9 @@ function MethodSlider() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-black rounded-[90px] p-10 ml-auto mr-auto  text-white flex justify-center items-center '>
+                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-[#0019ff] rounded-[90px] p-10 ml-auto mr-auto  text-white flex justify-center items-center '>
                   
-                        <h2 className=' text-4xl uppercase text-black font-bold bg-[#10e88a] p-2  '>Design Process</h2>
+                        <h2 className=' text-4xl uppercase text-black font-bold bg-[white] p-2  '>Design Process</h2>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -124,7 +124,7 @@ function MethodSlider() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-black rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
+                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-[#0019ff] rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
                         <div className=' p-2 text-4xl'>
 <ul >
 <li className='text-2xl font-bold  '>2.  Prototyping</li>
@@ -137,7 +137,7 @@ function MethodSlider() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-[#FF4D01] rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
+                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-[#ff3928] rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
                         <div className=' p-2 text-4xl'>
 <ul >
 <li className='text-2xl font-bold  '>3. User Experience (UX) Design</li>
@@ -161,7 +161,7 @@ function MethodSlider() {
 
 
                         <SwiperSlide>
-                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-[#FF4D01] rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
+                        <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px] bg-[#ff3928] rounded-[90px] text-white p-10 ml-auto mr-auto flex justify-center items-center '>
                         <div className=' p-2 text-4xl'>
                         <ul >
 <li className='text-2xl font-bold  '>1.Coding Standards</li>
@@ -292,3 +292,4 @@ function MethodSlider() {
 }
 
 export default MethodSlider
+

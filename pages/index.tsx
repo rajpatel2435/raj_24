@@ -7,6 +7,7 @@ import Hscroll from './components/Hscroll'
 import Services from './components/Services'
 import TextBig from './components/TextBig'
 import MethodSlider from './components/MethodSlider'
+import Unique_services from './components/Unique_services'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
    <MethodSlider/>
    <Meet />
    {/* <Hscroll /> */}
-   <Services />
+  <Unique_services />
 {/* 
    <ProjetcLi /> */}
 

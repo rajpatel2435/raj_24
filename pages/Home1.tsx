@@ -77,12 +77,18 @@ function Home() {
           href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap"
           rel="stylesheet"
         />
+
+<link
+          href="https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&display=swap"
+          rel="stylesheet"
+        />
         <link rel="stylesheet" href="../styles/marquee.css" />
         <link rel="stylesheet" href="../styles/projectLi.css" />
 
         <style>
 
 </style>
+
       </Head>
 
 
@@ -107,7 +113,7 @@ function Home() {
           </div>
 
 <div className=" text-center align-middle items-center flex-1 content-home">
-
+{/* <div className="flex flex-col justify-center items-center content-home"> */}
 
           <div className="md:text-6xl lg:text-7xl lg:mt-28 content-home">Designing & Developing <br/>Digital masterpieces <br/>
           from Montreal&apos;s Creative hub </div>
