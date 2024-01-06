@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import brand_identity from './brand_identity'
+
 import oletter from "../../public/Images/o_letter.svg"
 function Unique_services() {
     return (

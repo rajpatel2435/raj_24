@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React, { useEffect } from 'react'
 import gsap from 'gsap';
 
-function brand_identity() {
+function Brand_identity() {
 
     useEffect(() => {
       
@@ -113,4 +113,4 @@ Amplify Your Business Brilliance with Dynamic Digital Branding Services 🚀✨
   )
 }
 
-export default brand_identity
+export default Brand_identity
