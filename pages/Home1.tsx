@@ -109,7 +109,7 @@ function Home() {
 
 
 
-      <div className="container_punchLine_2">
+      <div className="container_punchLine_2 color-black">
         <div className="punch_line">
             &nbsp; &nbsp; Work In Progress &nbsp; &nbsp; &nbsp;
             &nbsp; &nbsp; Under development &nbsp; &nbsp; &nbsp;
@@ -135,7 +135,7 @@ function Home() {
         </div>
     </div>
 
-      <div className="wrap">
+      <div className="wrap color-black">
 
         <div
           className="panel color-dark panel-black flex  flex-col min-h-screen justify-center"
