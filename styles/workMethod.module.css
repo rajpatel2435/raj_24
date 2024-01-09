@@ -1,0 +1,65 @@
+.work_swiper .swiper .swiper-button-prev::after{
+    content: url('/Images/arrow-right-solid.svg'); /* Replace 'your-image-url.png' with the actual URL of your image */
+    display: inline-block;
+    /* Adjust the margin as needed */
+background-position: center;
+text-align: center;
+transform: rotate(180deg);
+margin-top: 15px;
+margin-right: 2px;
+
+
+}
+
+.work_swiper .swiper .swiper-button-prev,.work_swiper .swiper .swiper-button-next{
+
+height: 50px;
+width: 50px;
+
+border-radius: 50%;
+border: 3px solid black;
+}
+
+.work_swiper .swiper .swiper-button-next::after{
+    content: url('/Images/arrow-right-solid.svg'); /* Replace 'your-image-url.png' with the actual URL of your image */
+    display: inline-block;
+    /* Adjust the margin as needed */
+background-position: center;
+text-align: center;
+
+margin-top: -15px;
+margin-right: 2px;
+
+
+}
+
+
+.work_swiper .swiper .swiper-wrapper .swiper-slide{
+    height: 450px;
+    cursor:grab;
+}
+
+
+.work_swiper .swiper .swiper-button-prev, .work_swiper .swiper .swiper-button-next{
+    top: 400px;
+}
+
+@media screen and (max-width:600px){
+    .work_swiper .swiper .swiper-button-prev, .work_swiper .swiper .swiper-button-next{
+        top: 350px;
+    }
+
+    .work_swiper .swiper .swiper-button-next{
+        right: 123px;
+    }
+
+    .work_swiper .swiper .swiper-button-prev{
+        left: 123px;
+    }
+
+    .work_swiper .swiper .swiper-wrapper .swiper-slide{
+        height: 399px;
+    }
+    
+    
+}

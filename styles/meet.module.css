@@ -1,0 +1,12 @@
+.meet-arrow{
+    animation: moving 010s ease-in-out infinite;
+}
+
+@keyframes moving {
+ 0%{
+    rotate: 0 deg;
+ }
+    100%{
+        rotate: 360deg;
+    }
+}

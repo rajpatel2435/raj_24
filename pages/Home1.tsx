@@ -5,6 +5,10 @@ import $ from "jquery";
 import gsap from "gsap";
 
 import ProjetcLi from "./components/ProjectLi";
+import WorkMethod from "./components/WorkMethod";
+import ProjectsNew from "./components/ProjectsNew";
+import Link from "next/link";
+import HeaderMenu from "./headerMenu";
 
 function Home() {
   useEffect(() => {
@@ -46,22 +50,22 @@ function Home() {
 
     const skills_3 = document.querySelector(".skills_3") as HTMLDivElement;
 
-    skills_1.addEventListener("mouseover", () => {
-      gsap.to(skills_1, {
-        duration: 0.018,
-        css: {
-          animationPlayState: "paused",
-        },
-      });
-    });
+    // skills_1?.addEventListener("mouseover", () => {
+    //   gsap.to(skills_1, {
+    //     duration: 0.018,
+    //     css: {
+    //       animationPlayState: "paused",
+    //     },
+    //   });
+    // });
 
-    skills_1.addEventListener("mouseleave", () => {
-      gsap.to(skills_1, {
-        css: {
-          animationPlayState: "running",
-        },
-      });
-    });
+    // skills_1.addEventListener("mouseleave", () => {
+    //   gsap.to(skills_1, {
+    //     css: {
+    //       animationPlayState: "running",
+    //     },
+    //   });
+    // });
   }, []);
 
   return (
@@ -73,30 +77,88 @@ function Home() {
           href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap"
           rel="stylesheet"
         />
+
+<link
+          href="https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&display=swap"
+          rel="stylesheet"
+        />
         <link rel="stylesheet" href="../styles/marquee.css" />
         <link rel="stylesheet" href="../styles/projectLi.css" />
+
+        <style>
+
+</style>
+
       </Head>
 
 
 
-      <div className="wrap">
 
-    
+      {/* <div className="flex justify-between services_title overflow-hidden text-end ">
+        <ul className=" mb-8 text-2xl md:text-end md:mr-12 md:text-4xl md:mt-10">
+                <li>Crafting digital dreams,</li>
+                <li>where pixels meet profit</li>
+            </ul>
+        </div> */}
+
+
+
+
+
+
+
+
+
+      <div className="container_punchLine_2 color-black">
+        <div className="punch_line">
+            &nbsp; &nbsp; Work In Progress &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Under development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; In development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Not completed &nbsp; &nbsp; &nbsp;
+
+            &nbsp; &nbsp; Work In Progress &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Under development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; In development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Not completed &nbsp; &nbsp; &nbsp;
+
+            &nbsp; &nbsp; Work In Progress &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Under development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; In development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Not completed &nbsp; &nbsp; &nbsp;
+
+            &nbsp; &nbsp; Work In Progress &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Under development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; In development &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; Not completed &nbsp; &nbsp; &nbsp;
+
+
+        </div>
+    </div>
+
+      <div className="wrap color-black">
 
         <div
           className="panel color-dark panel-black flex  flex-col min-h-screen justify-center"
           data-color="black"
         >
 
-<div className="subline-home text-4xl flex-1">   
-   
+<div className="subline-home text-4xl md:flex-1">   
+<Link href="/headerMenu">
+
+<div className="w-10 p-2 absolute right-7 md:right-28 top-14">
+
+  <div className="h-1 w-8 mt-1 ml-1   text-center bg-white rounded-md"></div>
+  <div className="h-1 mt-2 mb-2 w-10 opacity-50 bg-white rounded-md"></div>
+  <div className="h-1 w-8 mt-1 ml-1   text-center bg-white  rounded-md"></div>
+</div>
+</Link>
           </div>
 
-<div className=" text-center align-middle items-center flex-1">
+<div className=" text-center align-middle items-center  content-home">
+{/* <div className="flex flex-col justify-center items-center content-home"> */}
 
-
-          <div className=" text-8xl mt-36">Designing & Developing <br/>Digital masterpieces <br/>
-          from Montreal's Creative hub </div>
+          <div className="md:text-6xl lg:text-7xl lg:mt-28 content-home">Designing & Developing <br/>Digital masterpieces <br/>
+          from Montreal&apos;s Creative hub </div>
           {/* <p className="text-4xl">- where experience meets innovation, and every pixxel tells a story</p> */}
           <div className="container_punchLine">
         <div className="punch_line">
@@ -114,8 +176,8 @@ function Home() {
     </div>
         </div>
        
-        <div className=" mr-10 flex-1">
-        <ul className=" text-end mr-12 text-4xl mt-10">
+        <div className="relative top-[20vh] text-center md:mr-10 md:flex-1 md:top-0">
+        <ul className=" mb-8 text-2xl md:text-end md:mr-12 md:text-4xl md:mt-10">
                 <li>Crafting digital dreams,</li>
                 <li>where pixels meet profit</li>
             </ul>
@@ -137,23 +199,83 @@ function Home() {
 
         {/* secnod div second page */}
         <div className="panel color-light" data-color="black">
+          <h2 className="text-4xl">Unique Services </h2>
+         <div className="skills_main">
+            <div className="skills p-10">
+             <span className=" border border-gray-400 rounded-full px-7 ">WEb development</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7 ">WEb design</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">SEO</span> &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">Game Designer</span>  &nbsp; &nbsp;
+
+             <span className=" border border-gray-400 rounded-full px-7">Branding</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">UI/UX</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">3D Site developer</span>  &nbsp; &nbsp;
+
+
+
+{/* REpeat the things */}
+             <span className=" border border-gray-400 rounded-full px-7 ">WEb development</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7 ">WEb design</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">SEO</span> &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">Game Designer</span>  &nbsp; &nbsp;
+       
+             <span className=" border border-gray-400 rounded-full px-7">Branding</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">UI/UX</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">3D Site developer</span>  &nbsp; &nbsp;
+       
+            </div>
+          </div>
+          <h2 className="text-4xl ">Expertise</h2>
           <div className="skills_main">
-            <div className="skills">
-              Web development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
-              &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp; &nbsp;
-              &nbsp; Web optimization &nbsp; &nbsp; Reaact &nbsp; &nbsp; Web
-              development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
-              &nbsp; Web development &nbsp; &nbsp; &nbsp; Raj &nbsp; &nbsp;
-              &nbsp; Web development &nbsp; &nbsp; &nbsp; Web development &nbsp;
-              &nbsp; &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp;
-              &nbsp; &nbsp; Web optimization &nbsp; &nbsp; Reaact &nbsp; &nbsp;
-              Web development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
-              &nbsp; Web development &nbsp; &nbsp; &nbsp; Raj &nbsp; &nbsp;
-              &nbsp;
+            <div className="skills_2 p-10">
+             <span className=" border border-gray-400 rounded-full px-7 ">React JS</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7 ">3 JS</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">Next js</span> &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">express js</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">wordpress</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">node</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">php</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">html</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">css</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">scss</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">typescript</span>  &nbsp; &nbsp;         
+              <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+              <span className=" border border-gray-400 rounded-full px-7">shopify</span>  &nbsp; &nbsp;
+              <span className=" border border-gray-400 rounded-full px-7">ASTRO</span>  &nbsp; &nbsp;
+       
+            </div>
+          </div>
+{/* 
+Optimization - need to stay top in google ranking */}
+<h2 className="text-4xl bg-white text-black w-[700px] ml-auto mr-auto p-2">
+Stay on Top: Internet Optimization Experts!
+</h2>
+
+          <div className="skills_main">
+            <div className="skills p-10">
+             <span className=" border border-gray-400 rounded-full px-7 ">website speed</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7 ">code and script</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">server</span> &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">database</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">Mobile</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">Performance</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">image and media</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">cro</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">css</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">scss</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+             <span className=" border border-gray-400 rounded-full px-7">typescript</span>  &nbsp; &nbsp;         
+              <span className=" border border-gray-400 rounded-full px-7">tailwind</span>  &nbsp; &nbsp;
+              <span className=" border border-gray-400 rounded-full px-7">shopify</span>  &nbsp; &nbsp;
+              <span className=" border border-gray-400 rounded-full px-7">ASTRO</span>  &nbsp; &nbsp;
+       
             </div>
           </div>
 
-          <div className="skills_main_2">
+          {/* <div className="skills_main_2">
             <div className="skills_2 ">
               Web development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
               &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp; &nbsp;
@@ -171,6 +293,7 @@ function Home() {
 
           <div className="skills_main_3">
             <div className="skills">
+       
               Web development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
               &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp; &nbsp;
               &nbsp; Web optimization &nbsp; &nbsp; Reaact &nbsp; &nbsp; Web
@@ -183,19 +306,19 @@ function Home() {
               &nbsp; Web development &nbsp; &nbsp; &nbsp; Raj &nbsp; &nbsp;
               &nbsp;
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="panel color-dark" data-color="indigo">
-          <h2>Blue panel</h2>
-          <ProjetcLi />
-        </div>
-        <div className="panel color-light" data-color="black">
-          <h2>Green panel</h2>
 
-          <div className="more_freelancing1212">
+          {/* <ProjetcLi /> */}
+          <ProjectsNew/>
+        </div>
+  
+
+        <div className="more_freelancing1212">
             <a
-              href="/index.html"
-              target="_blank"
+              href="#meeet"
+        
               className="ribbon show"
               style={{}}
             >
@@ -242,13 +365,13 @@ function Home() {
                 </div>
               </div>
             </a>
-          </div>
-        </div>
-        <div className="panel color-dark" data-color="indigo">
-          <h2>Yellow panel</h2>
-          <div className="skills_main_home">
-            <div className="skills_1" style={{ fontSize: "21vw" }}>
-              Web development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
+          </div> 
+      
+
+        <div className="panel color-light min-h-0" data-color="black">
+        <div className="skills_main_home">
+            <div className="skills_1" style={{ fontSize: "21vw",opacity:"0.5" }}>
+           Welcome To digital World &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
               &nbsp; Web design &nbsp; &nbsp; &nbsp; Web skills &nbsp; &nbsp;
               &nbsp; Web optimization &nbsp; &nbsp; Reaact &nbsp; &nbsp; Web
               development &nbsp; &nbsp; &nbsp; Web development &nbsp; &nbsp;
@@ -262,13 +385,11 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="panel color-light" data-color="black">
-          <h2>Orange panel</h2>
-        </div>
-        <div className="panel color-dark" data-color="indigo">
-          <h2>Red panel</h2>
-        </div>
+
       </div>
+
+
+
     </>
   );
 }

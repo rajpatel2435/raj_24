@@ -1,53 +1,214 @@
-.projectLi:hover {
-    background-color: black;
-}
 
 
-.ul {
+.custom-li {
 
 
-  display: flex;
-color: black;
+background-color: black;
+color: White;
 font-size: 50px;
+border-bottom: 4px solid beige;
+border-bottom-width: 5px;
 
   }   
 
-  ul{
-    height: 100vh;
-    width: 100dvw;
-   
-  }
 
   .li_inside{
 
-    height: 100%;
-    width:0%;
-flex: 0.3;
+
+  
+
   }
 
-
-
-  .list-item {
-    list-style: none;
-    padding: 10px;
-    margin: 5px;
-    position: relative;
-    cursor: pointer;
+  .container11 {
+    width: 100%;
+    height: 200px;
     overflow: hidden;
-    color: white; /* Text color */
   }
   
-  .list-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
+  .bg11 {
+    background-color: blue;
     height: 100%;
-    background-color: black; /* Default background color */
-    transition: width 0.5s;
-  }
-  
-  .list-item:hover::before {
     width: 100%;
   }
+
+  .li_container{
+    display: block;
+margin: 0px auto;
+    width: 80%;
+    background-color: black;
+    overflow: hidden;
+
+    padding: 10px 10px 68px 10px;
+  }
+
+
+
+  .h1_raj{
+    white-space: nowrap ;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* design for your unique styles */
+
+
+  @media screen and (max-width: 767px){
+
+
+    .services-h1-txt {
+      letter-spacing: -4px;
+      font-size: 76px;
+  }
+
+  .services-h1 {
+    margin-top: 60px;
+}
+  .t-arrow-img {
+    height: 130px;
+}
+
+.services-hero-eye {
+  height: 40px;
+}
+  }
+
+
+  @media screen and (max-width: 991px){
+.services-h1-txt {
+    letter-spacing: -4px;
+    font-size: 109px;
+}
+
+
+.services-h1 {
+  margin-top: 100px;
+}
+
+.services-hero-eye {
+  height: 60px;
+}
+
+.t-arrow-img {
+  height: 180px;
+  left: 16%;
+}
+
+  }
+
+  .services-h1-txt {
+    color: #111;
+    letter-spacing: -6px;
+    align-self: auto;
+    font-size: 141px;
+    font-weight: 500;
+    line-height: 94%;
+}
+
+
+.right-bracket, .left-bracket {
+  color: #0019ff;
+  font-weight: 400;
+}
+
+.t-arrow-txt-wrapper {
+  position: relative;
+}
+
+
+.t-arrow-img {
+  width: auto;
+  height: 220px;
+  aspect-ratio: 38 / 77;
+  position: absolute;
+  top: 11%;
+  bottom: auto;
+  left: 17%;
+  right: auto;
+}
+
+
+.hidden-letter {
+  color: rgba(0, 0, 0, 0);
+}
+
+
+.txt-with-eye-wrapper {
+  position: relative;
+}
+
+
+.services-hero-eye {
+  width: auto;
+  height: 112px;
+  aspect-ratio: 1 / 1;
+  display: block;
+  position: absolute;
+  top: auto;
+  bottom: 7%;
+  left: auto;
+  right: 22%;
+}
+
+
+.services-h1 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  position: relative;
+
+
+}
+
+
+@media screen and (max-width: 650px){
+.services-h1 {
+    margin-top: 9%;
+}
+
+
+.services-h1-txt {
+  letter-spacing: -2px;
+  font-size: 46px;
+}
+
+.t-arrow-img {
+  height: 80px;
+}
+
+.services-hero-eye {
+  height: 25px;
+}
+
+}
+
+@media screen and (min-width:992px) {
+
+  .services_title{
+    transform: translate(0px, -263px);
+width: 100%;
+font-size: 33px;
+    overflow: hidden;
+  }
+  
+  
+.services-hero-eye {
+  width: auto;
+  height: 145%;
+  aspect-ratio: 1 / 1;
+  display: block;
+  position: absolute;
+  top: -21px;
+  bottom: 7%;
+  left: auto;
+  right: 17%;
+}
+}
