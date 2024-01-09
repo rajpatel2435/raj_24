@@ -11,6 +11,8 @@ import Link from "next/link";
 import HeaderMenu from "./headerMenu";
 
 function Home() {
+  console.log("From Jenil");
+  
   useEffect(() => {
     $(window).scroll(() => {
       // selectors
