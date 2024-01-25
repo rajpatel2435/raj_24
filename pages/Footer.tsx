@@ -17,7 +17,7 @@ function Footer() {
                     <div>
                         <div>
                             <ul>
-                                <li className='font-bold'>Montreal's HeadOffice</li>
+                                <li className='font-bold'>Montreal&apos;s HeadOffice</li>
                                 <li> <br/></li>
                                 <li>Suite 6,4620 Avenue Plamondon</li>
                                 <li>Montreal,QC H3W 1E5</li>
