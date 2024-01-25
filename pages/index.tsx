@@ -8,11 +8,13 @@ import Services from './components/Services'
 import TextBig from './components/TextBig'
 import MethodSlider from './components/MethodSlider'
 import Unique_services from './components/Unique_services'
+import Footer from './Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
    <>
+
    <Home1 />
    {/* <TextBig /> */}
    <MethodSlider/>
@@ -21,7 +23,7 @@ export default function Home() {
   <Unique_services />
 {/* 
    <ProjetcLi /> */}
-
+  
    </>
   )
 }

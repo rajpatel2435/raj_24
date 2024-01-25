@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Footer'
 
 function Digital_products() {
     return (
@@ -68,6 +69,8 @@ function Digital_products() {
                 Experience Excellence with Uni Agency`&apos;`s Web3 Development! As an outsourced product development company, we deliver pitch-perfect apps, ensuring substantial benefits for your investors or shareholders. Our implementation of superb Web3 solutions streamlines your business operations, providing a seamless and innovative platform experience
                 </p>
             </div>
+
+            <Footer/>
         </>
     )
 }

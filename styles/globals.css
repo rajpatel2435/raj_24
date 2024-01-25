@@ -15,6 +15,7 @@
 @import url('sliderAnimation.module.css');
 @import url('projectNew.module.css');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 .content-home{
   font-family: 'Audiowide', sans-serif;

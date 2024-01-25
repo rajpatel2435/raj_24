@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 import oletter from "../../public/Images/o_letter.svg"
+import Footer from '../Footer'
 function Unique_services() {
     return (
         <>
@@ -39,6 +40,8 @@ function Unique_services() {
                 </div>
             </div>
             </div>
+
+            <Footer/>
         </>
     )
 }
