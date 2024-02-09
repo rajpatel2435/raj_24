@@ -17,6 +17,7 @@ export default function Home() {
 
    <Home1 />
    {/* <TextBig /> */}
+   {/* Avoid this part */}
    <MethodSlider/>
    <Meet />
    {/* <Hscroll /> */}
