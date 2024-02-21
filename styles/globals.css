@@ -353,7 +353,7 @@ border-radius: 20px;
   display: inline-block;
   -webkit-text-stroke: 1px white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  animation: moveLeftPunch 50s linear infinite;
+  animation: moveLeftPunch 50s ease-in-out infinite;
 }
 
 @keyframes moveLeftPunch {
@@ -413,3 +413,22 @@ color: white !important;
 
 /*     background-color: rgb(var(--c-black)/var(--tw-bg-opacity));
  */
+
+
+ .arrow-cross{
+  content: url(/Images/arrow-right-solid.svg);
+    display: inline-block;
+    background-position: center;
+    text-align: center;
+    transform: rotate(-47deg);
+    margin-top: 15px;
+    margin-right: 2px;
+ }
+
+
+ @media screen and (max-width:500px) {
+  .newsletter{
+    margin-top: 10px;
+  }
+  
+ }

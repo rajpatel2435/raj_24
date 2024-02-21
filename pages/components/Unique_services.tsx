@@ -6,7 +6,7 @@ import Footer from '../Footer'
 function Unique_services() {
     return (
         <>
-        <div className=' min-h-screen flex justify-center flex-col bg-white'>
+        <div className=' min-h-[50vh] md:min-h-screen flex justify-center flex-col bg-white'>
 
 
             <div className='services-h1'>

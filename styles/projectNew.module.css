@@ -2,7 +2,7 @@
     text-align: left;
     display: flex;
     background-color: #915c5c;
-    height: 95vh;
+
     padding-left: 0;
     padding-right: 2vh;
     width: 115vh;
@@ -19,6 +19,14 @@
 
 }
 
+@media screen and (min-width:600px) {
+    .first_project_nl,#div_block-635-19,.third_project, .fourth_project{
+       
+        height: 95vh;
+       
+    
+    }
+}
 
 .homepage-clients{
     translate: none;
@@ -60,7 +68,7 @@
     text-align: left;
 
     background-color: #000;
-    height: 95vh;
+
     padding-left: 2vh;
     padding-right: 2vh;
     padding-top: 4vh;
@@ -79,7 +87,7 @@
     text-align: left;
     display: flex;
     background-color: #000;
-    height: 95vh;
+
     padding-left: 0;
     padding-right: 2vh;
     width: 115vh;
@@ -95,7 +103,7 @@
     text-align: left;
    
     background-color: #FF4D01;
-    height: 95vh;
+
     padding-left: 2vh;
     padding-right: 2vh;
     padding-top: 4vh;
@@ -122,7 +130,7 @@
     #div_block-635-19,.div_block-643-19, .third_project,.fourth_project {
         width: 95vw;
         min-width: 95vw;
-        height: 65vh;
+
     }
 
     .homepage-clients{

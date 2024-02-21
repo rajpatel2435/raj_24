@@ -12,8 +12,8 @@ function Footer() {
 
 
 
-            <div className='flex p-10 bg-black'>
-                <div className='flex justify-around flex-row-reverse flex-1'>
+            <div className='md:flex p-10 bg-black'>
+                <div className='md:flex justify-around flex-row-reverse flex-1 text-center'>
                     <div>
                         <div>
                             <ul>
@@ -26,31 +26,37 @@ function Footer() {
 
                     </div>
 
-                    <div>
-                        <div className=' text-center font-bold'>Follow us on </div>
-                        <div className='flex'><FontAwesomeIcon icon={faInstagram} style={{ fontSize: 50, padding: 10,color:'green' }} />
-               
-                        <FontAwesomeIcon icon={faFacebook} style={{ fontSize: 50,color:'green'}} />
-          
-          
-          
-                                        <FontAwesomeIcon icon={faLinkedinIn} style={{ fontSize: 50, padding: 10,color:'' }} />
-                                    
-
-                                        
-                        </div>
-
-
-                    </div>
 
                     <div>
                     <div className="newsletter"><h4 className='text-center font-bold'>Subscribe to our newsletter</h4><div className="form_wrapper"><form action="" className="form"><div className="field">
-                            <input placeholder="E-Mail address" className=' border-dashed border-2 border-sky-100 p-2' type="email" value="" />
-                            <button className='p-2 mt-5 bg-black text-white'><span>Subscribe</span></button></div></form></div></div>
+                            <input placeholder="E-Mail address" className='  border-2 border-green-200 rounded-[20px] bg-black p-2' type="email"  />
+                            <button className='p-2 mt-5 bg-green-400 sm:ml-2   md:ml-4 rounded-[20px] text-white'><span>Subscribe</span></button></div></form></div></div>
                     
                 </div>
 
                     </div>
+                </div>
+                <div className='bg-white text-black md:flex justify-between p-5 uppercase items-end'>
+                    <div className=' text-center'>
+                    © 2024 your agency
+                        </div>
+
+                        <div className=' gap-5 flex md:gap-20 justify-center'>
+                            <div className='md:flex md:gap-20'>
+
+                          
+                            <div>Facebook <div className='arrow-cross'></div></div>
+                            <div>LinkedIn <div className='arrow-cross'></div></div>
+
+                            </div>
+
+                            <div className='md:flex md:gap-20'>
+                            <div>InstaGram <div className='arrow-cross'></div></div>
+                            <div className=' mr-10'>github <div className='arrow-cross'></div></div>
+
+                            </div>
+                        </div>
+
                 </div>
             
         </>
