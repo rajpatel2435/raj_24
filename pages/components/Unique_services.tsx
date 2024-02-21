@@ -25,7 +25,7 @@ function Unique_services() {
 
             <div className='flex justify-between services_title overflow-hidden'>
                 <div>
-                    <Link href={'/components/brand_identity'}>
+                    <Link href={'/components/Brand_identity'}>
 
                         <p className=' text-black'>1) Digital Branding</p>
                     </Link>
