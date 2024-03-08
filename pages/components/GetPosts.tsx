@@ -109,7 +109,7 @@ const MyComponent = () => {
 
                 >
         {data && data.posts.edges.map((post) => (
-          <SwiperSlide>
+          <SwiperSlide key={post.node.id}>
           <div key={post.node.id} className='p-10 max-w-4xl ml-auto mr-auto'>
 
 
