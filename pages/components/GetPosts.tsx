@@ -72,6 +72,7 @@ const MyComponent = () => {
   
     return (
       <div>
+        <h3 className='text-2xl font-bold font-mono ml-10'>Trending Tech News</h3>
            <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
               
