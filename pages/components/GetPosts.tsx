@@ -13,7 +13,7 @@ import Link from 'next/link';
 const queryClient = new QueryClient();
 
 const fetchData = async () => {
-    const response = await fetch('http://youragency.atwebpages.com/graphql', {
+    const response = await fetch('https://youragency.atwebpages.com/graphql', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
