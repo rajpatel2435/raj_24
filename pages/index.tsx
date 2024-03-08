@@ -10,6 +10,7 @@ import MethodSlider from './components/MethodSlider'
 import Unique_services from './components/Unique_services'
 import Footer from './Footer'
 import Head from 'next/head'
+import GetPosts from './components/GetPosts'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
    {/* <TextBig /> */}
    {/* Avoid this part */}
    <MethodSlider/>
+   <GetPosts/>
    <Meet />
    {/* <Hscroll /> */}
   <Unique_services />
