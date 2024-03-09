@@ -5,7 +5,7 @@ function generateSiteMap(data) {
     // console.log(data.posts.edges);
     const urls = data.posts.edges?.map((item) => {
         const slug = item?.node?.uri;
-      console.log(slug);
+    //   console.log(slug);
 
       return {
         url: `${homepage}/posts${slug}`,
