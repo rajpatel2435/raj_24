@@ -18,7 +18,10 @@ export default function Home() {
    <>
 <Head>
 <meta name="google-site-verification" content="_TBssEI6mk7AV3CxgBQykOJ_eYaW5YvQOh4IUyBoXqo" />
-  
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+    <meta name="description" content="Transforming visions into digital reality. Our web development agency crafts tailored solutions to elevate your online presence. From sleek designs to powerful functionalities, we specialize in creating captivating websites that drive results. Let us bring your ideas to life in the digital world" />
+    <title>Your Agency: Building Your Online Success</title>
 </Head>
    <Home1 />
    {/* <TextBig /> */}
