@@ -1,6 +1,194 @@
 import { useRouter } from 'next/router';
+import Head from 'next/head';
+export const prerender = true;
+export async function seoNodeByURI(uri){
+    const response = await fetch("http://youragency.atwebpages.com/graphql", {
+        method: 'post', 
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({
+            query: `query seoUri($uri: String!) {
+              nodeByUri(uri: $uri) {
+                __typename
+                ... on Page {
+                  id
+                  title
+                  uri
+                  slug
+                  seo {
+                    opengraphSiteName
+                    breadcrumbs {
+                      text
+                      url
+                    }
+                    opengraphUrl
+                    canonical
+                    metaDesc
+                    title
+                    opengraphDescription
+                    opengraphPublishedTime
+                    opengraphModifiedTime
+                    opengraphImage {
+                      sourceUrl
+                      mimeType
+                      author {
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    opengraphType
+                    readingTime
+                    schema {
+                      raw
+                    }
+                  }
+                }
+                ... on Post {
+                  id
+                  uri
+                  slug
+                  seo {
+                    opengraphSiteName
+                    breadcrumbs {
+                      text
+                      url
+                    }
+                    opengraphUrl
+                    canonical
+                    metaDesc
+                    title
+                    opengraphDescription
+                    opengraphPublishedTime
+                    opengraphModifiedTime
+                    opengraphImage {
+                      sourceUrl
+                      mimeType
+                      author {
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    opengraphType
+                    readingTime
+                    schema {
+                      raw
+                    }
+                  }
+                }
+                
+                ... on Tag {
+                  id
+                  name
+                  uri
+                  seo {
+                    opengraphSiteName
+                    breadcrumbs {
+                      text
+                      url
+                    }
+                    opengraphUrl
+                    canonical
+                    metaDesc
+                    title
+                    opengraphDescription
+                    opengraphPublishedTime
+                    opengraphModifiedTime
+                    opengraphImage {
+                      sourceUrl
+                      mimeType
+                      author {
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    opengraphType
+                    schema {
+                      raw
+                    }
+                  }
+                }
 
+                ... on Basepress {
+                  id
+                  title
+                  uri
+                  seo {
+                    opengraphSiteName
+                    breadcrumbs {
+                      text
+                      url
+                    }
+                    opengraphUrl
+                    canonical
+                    metaDesc
+                    title
+                    opengraphDescription
+                    opengraphPublishedTime
+                    opengraphModifiedTime
+                    opengraphImage {
+                      sourceUrl
+                      mimeType
+                      author {
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    opengraphType
+                    readingTime
+                    schema {
+                      raw
+                    }
+                  }
+                }
+                ... on SectionBasepress {
+                  id
+                  name
+                  uri
+                  seo {
+                    opengraphSiteName
+                    breadcrumbs {
+                      text
+                      url
+                    }
+                    opengraphUrl
+                    canonical
+                    metaDesc
+                    title
+                    opengraphDescription
+                    opengraphPublishedTime
+                    opengraphModifiedTime
+                    opengraphImage {
+                      sourceUrl
+                      mimeType
+                      author {
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    opengraphType
+                    schema {
+                      raw
+                    }
+                  }
+                }
+              }
+            }
+          
+            `,
+            variables: {
+                uri: uri
+            }
+        })
+    });
+    const{ data } = await response.json();
 
+    console.log(data);
+    return data;
+  }
 
 
 const fetchData2 = async (uri) => {
@@ -25,6 +213,10 @@ const fetchData2 = async (uri) => {
                     slug
                     excerpt
                     content
+                    seo{
+                      title
+                      metaDesc
+                    }
                 }
             }
          
@@ -66,12 +258,20 @@ fetchData2(queryParams);
   }
 
   return (
+    <>
+
+    <Head>
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+    <meta name="description" content={post.seo.metaDesc} />
+    <title>{post.seo.title}</title>
+    </Head>
     <div className='p-10 max-w-4xl ml-auto mr-auto'>
       <h1 className='text-3xl text-center mb-10'>{post.title}</h1>
   
             <div dangerouslySetInnerHTML={{ __html: post.content }} />
     
     </div>
+    </>
   );
 };
 
