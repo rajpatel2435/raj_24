@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import Link from 'next/link';
 
 
 function Footer() {
@@ -38,7 +39,7 @@ function Footer() {
                 </div>
                 <div className='bg-white text-black md:flex justify-between p-5 uppercase items-end'>
                     <div className=' text-center'>
-                    © 2024 your agency
+                   <Link href={'/'}> © 2024 your agency </Link>
                         </div>
 
                         <div className=' gap-5 flex md:gap-20 justify-center'>
@@ -46,13 +47,13 @@ function Footer() {
 
                           
                             <div>Facebook <div className='arrow-cross'></div></div>
-                            <div>LinkedIn <div className='arrow-cross'></div></div>
+                            <div><Link href={'https://www.linkedin.com/in/rajpatel23/'}>LinkedIn <div className='arrow-cross'></div></Link></div>
 
                             </div>
 
                             <div className='md:flex md:gap-20'>
                             <div>InstaGram <div className='arrow-cross'></div></div>
-                            <div className=' mr-10'>github <div className='arrow-cross'></div></div>
+                            <div className=' mr-10'><Link href={'https://github.com/rajpatel2435'} >github <div className='arrow-cross'></div></Link></div>
 
                             </div>
                         </div>

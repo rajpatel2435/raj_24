@@ -62,7 +62,7 @@ function Brand_identity() {
 </Head>
 
 
-<div className='block reader_round  h-20 w-20 bg-green-50 opacity-50 rounded-full  absolute cursor-none' >
+<div className='block reader_round   h-20 w-20 bg-green-50 opacity-50 rounded-full  absolute cursor-none' >
 
 </div>
 <div className='color-black h-screen overflow-hidden'>

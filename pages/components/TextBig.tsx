@@ -9,7 +9,7 @@ function TextBig() {
 
         $(window).scroll(function() {
             var scroll:any = $(window).scrollTop();
-            console.log("scroll"+scroll);
+            //console.log("scroll"+scroll);
 
                 $(".box").css({
              

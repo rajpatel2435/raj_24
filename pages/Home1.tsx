@@ -20,11 +20,11 @@ function Home() {
 
       // Change 33% earlier than scroll position so color is there when you arrive.
       const scroll = $window.scrollTop() + $window.height() / 3;
-      console.log(scroll);
+      // console.log(scroll);
       $panel.each(function () {
         const $this: any = $(this);
 
-        console.log($this);
+        // console.log($this);
 
         // if position is within the range of this panel.
         // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).

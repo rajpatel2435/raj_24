@@ -87,7 +87,7 @@ function HeaderMenu() {
       lis.addEventListener("mouseover", () => {
         let selectore = lis.textContent.trim();
 
-        console.log(index, lis.textContent.trim());
+        //console.log(index, lis.textContent.trim());
 
         text_p.textContent = selectore;
 

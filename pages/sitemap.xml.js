@@ -44,7 +44,7 @@ function generateSiteMap(data) {
 
 }
 function generateSiteMapdddd(data) {
-console.log(data);
+//console.log(data);
 
 
   const urls = data?.map((item) => {
