@@ -3,7 +3,7 @@ import React from 'react'
 function WorkMethod() {
     return (
         <>
-            <div className=' block h-auto w-auto bg-black text-white '>
+            <div className=' block h-auto w-auto bg-black text-white ' id="MethodologyLink">
 
             <h2 className=' text-4xl uppercase bg-white text-black text-center  '>Our Approach</h2>
 

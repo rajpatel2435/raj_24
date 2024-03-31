@@ -11,6 +11,7 @@ import Unique_services from './components/Unique_services'
 import Footer from './Footer'
 import Head from 'next/head'
 import GetPosts from './components/GetPosts'
+import MethodologyHomr from './components/MethodologyHomr'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
    <Home1 />
    {/* <TextBig /> */}
    {/* Avoid this part */}
+
    <MethodSlider/>
    <GetPosts/>
    <Meet />

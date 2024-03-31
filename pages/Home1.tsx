@@ -9,6 +9,7 @@ import WorkMethod from "./components/WorkMethod";
 import ProjectsNew from "./components/ProjectsNew";
 import Link from "next/link";
 import HeaderMenu from "./headerMenu";
+import MethodologyHomr from "./components/MethodologyHomr";
 
 function Home() {
   useEffect(() => {
@@ -314,6 +315,7 @@ Stay on Top: Internet Optimization Experts!
 
           {/* <ProjetcLi /> */}
           <ProjectsNew/>
+          <MethodologyHomr/>
         </div>
   
 

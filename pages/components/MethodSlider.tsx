@@ -19,7 +19,7 @@ function MethodSlider() {
 
     return (
         <>
-            <div className=' bg-white py-10 work_swiper '>
+            <div className=' bg-white py-10 work_swiper ' id="MethodologyLink">
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
               
@@ -56,7 +56,7 @@ function MethodSlider() {
 
 
                 >
-                    <div className='flex justify-center '>
+                    <div className='flex justify-center ' id="MethodologyLink">
                     <SwiperSlide>
                             <div className=' h-[300px] w-[360px] md:h-[350px] md:w-[500px]  bg-black rounded-[90px] p-10 ml-auto mr-auto  flex justify-center items-center '>
                             <h2 className=' text-4xl uppercase text-white  text-center  '>Our Approach</h2>
