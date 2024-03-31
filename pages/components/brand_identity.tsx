@@ -95,7 +95,7 @@ Amplify Your Business Brilliance with Dynamic Digital Branding Services 🚀✨
 <h2 className='text-2xl font-mono'> Logo && symbol</h2>
 <p className='text-xl'>
     Elevating Your Brand Essence: Crafting Unique Logos, Symbols, and Visual Language. Our bespoke creations, from logos, typefaces, graphics, to marketing assets, redefine campaigns that leave a lasting impact on the market. Beyond aesthetics, we weave senses and messages into every visual element, shaping a brand experience that resonates
-    </p>
+    </p> 
 </div>
 
 <div>
