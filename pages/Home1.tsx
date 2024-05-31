@@ -252,7 +252,7 @@ function Home() {
           </div>
 {/* 
 Optimization - need to stay top in google ranking */}
-<h2 className="text-4xl bg-white text-black w-[700px] ml-auto mr-auto p-2">
+<h2 className="text-4xl bg-white text-black md:w-[700px] ml-auto mr-auto p-2">
 Stay on Top: Internet Optimization Experts!
 </h2>
 
