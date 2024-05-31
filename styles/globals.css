@@ -392,11 +392,21 @@ border-radius: 20px;
 
   }
 
+  .container_punchLine .punch_line {
+    font-family: unset;
+    -webkit-text-stroke:unset !important;
+  }
 
+  .container_punchLine{
+    transform: rotate(-14deg);
+    opacity: 0.6;
+  }
   .content-home{
-    font-size: 29px !important;
+    font-size: 37px !important;
 color: white !important;
 -webkit-text-stroke: 0px !important;
+
+font-family: 'Vina Sans', sans-serif !important;
   }
 }
 

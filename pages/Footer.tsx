@@ -13,7 +13,7 @@ function Footer() {
 
 
 
-            <div className='md:flex p-10 bg-black'>
+            <div className='md:flex p-10 bg-black text-white'>
                 <div className='md:flex justify-around flex-row-reverse flex-1 text-center'>
                     <div>
                         <div>
