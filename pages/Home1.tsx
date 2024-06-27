@@ -112,7 +112,7 @@ function Home() {
 
 
 
-      <div className="container_punchLine_2 color-black">
+      {/* <div className="container_punchLine_2 color-black">
         <div className="punch_line">
             &nbsp; &nbsp; Work In Progress &nbsp; &nbsp; &nbsp;
             &nbsp; &nbsp; Under development &nbsp; &nbsp; &nbsp;
@@ -136,7 +136,7 @@ function Home() {
 
 
         </div>
-    </div>
+    </div> */}
 
       <div className="wrap color-black">
 
